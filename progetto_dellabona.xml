@@ -1,0 +1,1715 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<?xml-stylesheet type="text/xsl" href="trasformazione1.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>LA RASSEGNA SETTIMANALE DI POLITICA, SCIENZE, LETTERE ED ARTI in versione digitale. </title>
+        
+                <respStmt>
+                    <resp> Conversione secondo lo standard di codifica TEI P5 a cura di:  </resp>
+                    <name> Diletta Della Bona </name>
+                </respStmt>
+
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher> Università di Pisa</publisher>
+                <date> 2025</date>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title>Edizione codificata e fruibile digitalmente della rivista "La Rassegna Settimanale di politica, scienze, lettere ed arti." </title>
+                <respStmt>
+                    <resp>coordinata da:</resp>
+                    <name> Angelo Mario Del Grosso</name>
+                </respStmt>
+            </seriesStmt>
+            
+            <!--GLOSSARIO-->
+            <notesStmt>
+                <noteGrp>
+                    <note>
+                        <list>
+                            <item xml:id="persone_reali">
+                                Persone Reali: persone realmente esistite
+                            </item>
+                            <item xml:id="personaggi">
+                                Persone immaginarie/ personaggi
+                            </item>
+                            <item xml:id="opere">
+                                Opere: titoli o termini tecnici con cui può essere definita un'opera o una sua parte.
+                            </item>
+                            <item xml:id="luoghi">
+                                Luoghi
+                            </item>
+                            <item xml:id="luoghi_naturali">
+                                Luoghi naturali
+                            </item>
+                            <item xml:id="casa_editrice">
+                                Casa editrice/ rivista
+                            </item>
+                            <item xml:id="date">
+                                Date
+                            </item>
+                            <item xml:id="temi_motivi">
+                                Temi/ motivi: temi e argomenti del testo
+                            </item>
+                            <item xml:id="correnti_letterarie">
+                                Correnti letterarie
+                            </item>
+                            <item xml:id="testo_lingua_straniera">
+                                Testo in lingua straniera
+                            </item>
+                            <item xml:id="citazioni">
+                                Citazioni
+                            </item>
+                            <item xml:id="organizzazioni">
+                                Organizzazioni
+                            </item>
+                        </list>
+                    </note>
+                </noteGrp>
+            
+            </notesStmt>
+
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title> La Rassegna Settimanale di politica, scienze, lettere ed arti.</title>
+                        <textLang mainLang="it">Italiano</textLang>
+
+                        <respStmt>
+                            <name> Leopoldo Franchetti</name>
+                                <name> Sydney Sonnino</name>
+                            <resp>
+                                
+                                 Fondatori
+                            </resp>
+                        </respStmt>
+
+                        <respStmt>
+                            <name> Pietro Pampaloni</name>
+                            <resp>
+                                
+                                 Garente responsabile
+                            </resp>
+                        </respStmt>
+
+                        <imprint>
+                        <publisher> Tipografia Barbéra</publisher>
+                        <pubPlace> Firenze</pubPlace>
+                        <date> 1878</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+
+    <!--Articoli da codificare-->
+    <facsimile>
+
+        <!--FASCICOLO 66-->
+
+        <!--FASCICOLO 66 - ARTICOLO : Le maestre elementari.-->
+        <surface xml:id="articolo1" xml:lang="it" n="1">
+            <graphic url='lemaestreelementari1.jpg' width='686.666666px' height='917.666666px' />
+            <zone xml:id="articolo66_0" ulx="30" uly="128" lrx="330" lry="425" />
+            <zone xml:id="articolo66_1" ulx="32" uly="423" lrx="330" lry="688" />
+            <zone xml:id="articolo66_2" ulx="31" uly="687" lrx="330" lry="889" />
+
+        
+            <!--cambio colonna-->
+            <zone xml:id="articolo66_3" ulx="334" uly="130" lrx="628" lry="305" />
+            <zone xml:id="articolo66_4" ulx="333" uly="303" lrx="635" lry="539" />
+            <zone xml:id="articolo66_5" ulx="334" uly="538" lrx="635" lry="714" />
+            <zone xml:id="articolo66_6" ulx="334" uly="711" lrx="628" lry="889" />
+        </surface>
+
+        <!--cambio pagina-->
+        <surface xml:id="articolo1.2" xml:lang="it" n="2"> 
+            <graphic url='lemaestreelementari2.jpg' width='688.666666px' height='916.666666px' />
+            <zone xml:id="articolo66_7" ulx="60" uly="51" lrx="360" lry="165" />
+            <zone xml:id="articolo66_8" ulx="58" uly="163" lrx="359" lry="240" />
+            <zone xml:id="articolo66_9" ulx="59" uly="239" lrx="358" lry="426" />
+            <zone xml:id="articolo66_10" ulx="58" uly="425" lrx="354" lry="662" />
+            <zone xml:id="articolo66_11" ulx="56" uly="661" lrx="354" lry="785" />
+            <zone xml:id="articolo66_12" ulx="56" uly="783" lrx="354" lry="889" />
+
+
+            <!--cambio colonna-->
+            <zone xml:id="articolo66_13" ulx="362" uly="51" lrx="658" lry="219" />
+        </surface>
+
+        <!--FASCICOLO 66 - BIBLIOGRAFIA E NOTIZIE-->
+        <surface xml:id="bibliografia66" xml:lang="it" n="3">
+            <graphic url='bibliografia66_1.jpg' width='586.666666px' height='857.666666px' />
+            <zone xml:id='bibliografia66_0' ulx="291" uly="436" lrx="545" lry="494" />
+            <zone xml:id='bibliografia66_1' ulx="290" uly="494" lrx="544" lry="613" />
+            <zone xml:id='bibliografia66_2' ulx="290" uly="612" lrx="546" lry="783" />
+
+        </surface>
+
+        <!--cambio pagina-->
+        <surface xml:id="bibliografia66.2" xml:lang="it" n="4">
+            <graphic url='bibliografia66_2.jpg' width='723.666666px' height='989.666666px' />
+            <zone xml:id='bibliografia66_3' ulx="76" uly="64" lrx="384" lry="710" />
+            <zone xml:id='bibliografia66_4' ulx="73" uly="708" lrx="382" lry="944" />
+
+
+            <!--cambio colonna-->
+            <zone xml:id='bibliografia66_5' ulx="386" uly="63" lrx="694" lry="292" />
+            <zone xml:id='bibliografia66_6' ulx="388" uly="294" lrx="696" lry="944" />
+        </surface>
+
+        <!--cambio pagina-->
+        <surface xml:id="bibliografia66.3" xml:lang="it" n="5">
+            <graphic url='bibliografia66_3.jpg' width='697.666666px' height='989.666666px' />
+            <zone xml:id='bibliografia66_7' ulx="27" uly="81" lrx="334" lry="109" />
+            <zone xml:id='bibliografia66_8' ulx="28" uly="109" lrx="333" lry="226" />
+            <zone xml:id='bibliografia66_9' ulx="28" uly="224" lrx="334" lry="335" />
+            <zone xml:id='bibliografia66_10' ulx="28" uly="334" lrx="334" lry="447" />
+            <zone xml:id='bibliografia66_11' ulx="29" uly="446" lrx="334" lry="591" />
+            <zone xml:id='bibliografia66_12' ulx="30" uly="588" lrx="332" lry="781" />
+            <zone xml:id='bibliografia66_13' ulx="28" uly="780" lrx="334" lry="941" />
+
+            
+            <!--cambio colonna-->
+            <zone xml:id='bibliografia66_14' ulx="336" uly="79" lrx="640" lry="269" />
+            <zone xml:id='bibliografia66_15' ulx="338" uly="269" lrx="644" lry="326" />
+            <zone xml:id='bibliografia66_16' ulx="339" uly="329" lrx="640" lry="917" />
+        </surface>
+
+        <!--cambio pagina-->
+        <surface xml:id="bibliografia66.4" xml:lang="it" n="6">
+            <graphic url='bibliografianotizie66.jpg' width='638.666666px' height='891.666666px' />
+            <zone xml:id='bibliografia66_17' ulx="72" uly="77" lrx="345" lry="219" />
+            <zone xml:id='bibliografia66_18' ulx="72" uly="217" lrx="346" lry="261" />
+            <zone xml:id='notizie66_0' ulx="350" uly="374" lrx="623" lry="493" />
+            <zone xml:id='notizie66_1' ulx="347" uly="492" lrx="623" lry="606" />
+            <zone xml:id='notizie66_2' ulx="348" uly="604" lrx="624" lry="679" />
+            <zone xml:id='notizie66_3' ulx="347" uly="677" lrx="622" lry="734" />
+            <zone xml:id='notizie66_4' ulx="348" uly="733" lrx="625" lry="776" />
+
+ 
+        </surface>
+
+        <!--FASCICOLO 67-->
+
+        <!-- FASCICOLO 67 - ARTICOLO : La stampa e la questione sociale in Italia -->
+        <surface xml:id="articolo2" xml:lang="it" n="8">
+            <graphic url='lastampa1.jpg' width='646.666666px' height='914.666666px' />
+            <zone xml:id='articolo67_0' ulx="27" uly="154" lrx="309" lry="365" />
+            <zone xml:id='articolo67_1' ulx="26" uly="364" lrx="307" lry="562" />
+            <zone xml:id='articolo67_2' ulx="28" uly="563" lrx="306" lry="861" />
+
+
+            <!--cambio colonna-->
+            <zone xml:id='articolo67_3' ulx="310" uly="154" lrx="590" lry="183" />
+            <zone xml:id='articolo67_4' ulx="311" uly="183" lrx="590" lry="359" />
+            <zone xml:id='articolo67_5' ulx="310" uly="359" lrx="586" lry="711" />
+            <zone xml:id='articolo67_6' ulx="309" uly="712" lrx="588" lry="840" />
+        </surface>
+
+        <!--cambio pagina-->
+        <surface xml:id="articolo2.2" xml:lang="it" n="9">
+            <graphic url='lastampa2.jpg' width='659.666666px' height='916.666666px' />
+            <zone xml:id='articolo67_7' ulx="58" uly="70" lrx="347" lry="143" />
+            <zone xml:id='articolo67_8' ulx="58" uly="143" lrx="347" lry="433" />
+            <zone xml:id='articolo67_9' ulx="56" uly="431" lrx="346" lry="567" />
+            <zone xml:id='articolo67_10' ulx="55" uly="566" lrx="343" lry="745" />
+            <zone xml:id='articolo67_11' ulx="54" uly="745" lrx="342" lry="844" />
+
+
+            <!--cambio colonna-->
+            <zone xml:id='articolo67_12' ulx="348" uly="68" lrx="632" lry="265" />
+            <zone xml:id='articolo67_13' ulx="348" uly="265" lrx="640" lry="376" />
+        </surface>
+
+        <!--FASCIOLO 67 - BIBLIOGRAFIA E NOTIZIE-->
+        <surface xml:id="bibliografia67" xml:lang="it" n="10">
+            <graphic url='bibliografia67_1.jpg' width='670.666666px' height='912.666666px' />
+            <zone xml:id='bibliografia67_0' ulx="354" uly="733" lrx="648" lry="885" />
+
+        </surface>
+
+        <!--cambio pagina-->
+        <surface xml:id="bibliografia67.1" xml:lang="it" n="11">
+            <graphic url='bibliografia67_2.jpg' width='578.666666px' height='826.666666px' />
+            <zone xml:id='bibliografia67_1' ulx="34" uly="73" lrx="284" lry="569" />
+            <zone xml:id='bibliografia67_2' ulx="36" uly="568" lrx="284" lry="773" />
+
+
+            <!--cambio colonna-->
+            <zone xml:id='bibliografia67_3' ulx="286" uly="74" lrx="530" lry="211" />
+            <zone xml:id='bibliografia67_4' ulx="285" uly="210" lrx="531" lry="331" />
+            <zone xml:id='bibliografia67_5' ulx="286" uly="330" lrx="532" lry="735" />
+            <zone xml:id='bibliografia67_6' ulx="288" uly="735" lrx="536" lry="773" />
+        </surface>
+
+        <!--cambio pagina-->
+        <surface xml:id="bibliografia67.2" xml:lang="it" n="12">
+            <graphic url='bibliografianotizie67.jpg' width='608.666666px' height='898.666666px' />
+            <zone xml:id='bibliografia67_7' ulx="42" uly="73" lrx="318" lry="123" />
+            <zone xml:id='bibliografia67_8' ulx="34" uly="122" lrx="315" lry="391" />
+            <zone xml:id='bibliografia67_9' ulx="36" uly="389" lrx="317" lry="495" />
+            <zone xml:id='bibliografia67_10' ulx="38" uly="492" lrx="317" lry="627" />
+            <zone xml:id='bibliografia67_11' ulx="36" uly="625" lrx="313" lry="843" />
+            
+            <!--cambio colonna-->
+            <zone xml:id='bibliografia67_12' ulx="319" uly="72" lrx="592" lry="445" />
+            <zone xml:id='notizie67_0' ulx="319" uly="446" lrx="594" lry="630" />
+            <zone xml:id='notizie67_1' ulx="318" uly="630" lrx="590" lry="702" />
+            <zone xml:id='notizie67_2' ulx="315" uly="702" lrx="594" lry="780" />
+
+        </surface>
+        
+    </facsimile>
+
+    <text>
+        <body>
+        
+            <!-- FASCICOLO 66 -->
+            <div type="fascicolo" n="66">
+                <head>Fascicolo 66 - La Rassegna Settimanale</head>
+
+                <!-- ARTICOLO 1: "Le Maestre Elementari" -->
+                <div type="articolo" n="66">
+
+                    <div type="testo">
+                        <!--immagine 1-->
+                        <div facs="immagini/lemaestreelementari1.jpg">
+                            <pb/>
+                                <p corresp="#articolo66_0">
+                                    <lb/><title ref="#opere">LE MAESTRE ELEMENTARI
+                                    <lb/>IN ITALIA.</title>
+                                    <lb/>
+                                    <lb/>Fra le molte conseguenze che la <note type="event">rivoluzione italiana</note> ha 
+                                    <lb/>portato nella nostra società, alcune riguardano la <note type="theme" corresp="#temi_motivi">condi
+                                    <lb break="no"/>zione della donna</note>. Per essa, è vero, s'è fatto poco, pochis
+                                    <lb break="no"/>simo; ma pure noi abbiamo dovuto istituire nel nuovo <placeName> Regno </placeName> 
+                                    <lb/>migliaia di <orgName type="educational" ref="#organizzazioni">scuole elementari</orgName> maschili e femminili. Fanciulli 
+                                    <lb/>e fanciulle le frequentano ormai per tutto. A fondare quelle 
+                                    <lb/><orgName type="educational" ref="#organizzazioni">scuole</orgName> era necessario trovare gli <term type="occupation">insegnanti</term>. Ora è avvenuto 
+                                    <lb/>fra noi quello che del resto segue anche altrove, che per gli 
+                                    <lb/>uomini l'ufficio di <term type="occupation">maestro elementare</term> è assai poco attraente. 
+                                    <lb/>Chi ha la cultura necessaria per avere il <term>diploma</term>, assai 
+                                    <lb/>spesso o studia ancora un poco per entrare <term type="occupation">maestro</term> in una 
+                                    <lb/><orgName type="educational" ref="#organizzazioni">scuola tecnica</orgName>, in un <term>ginnasio</term> inferiore, in una <orgName type="educational" ref="#organizzazioni">scuola nor
+                                    <lb break="no"/>male</orgName>, o anche senza ciò trova nelle <orgName type="institutional" ref="#organizzazioni">poste</orgName>, nei <orgName type="institutional" ref="#organizzazioni">telegrafi</orgName>, 
+                                    <lb/>nelle <orgName type="institutional" ref="#organizzazioni">amministrazioni</orgName> un impiego meno noioso e faticoso, 
+                                    <lb/>meglio <note type="theme" subtype="economic">retribuito</note>, e che abbia maggiore speranza d'avve
+                                    <lb break="no"/>nire. E così segue in fatti, che scarso è il numero di coloro 
+                                    <lb/>che vanno alunni alle <orgName type="educational" ref="#organizzazioni">scuole normali maschili</orgName> per fare poi 
+                                    <lb/>i <term type="occupation">maestri</term>. Pochi le frequentano, e fra questi i più sono 
+                                    <lb/>chiamati dal sussidio governativo, studiano, fanno gli <term>esami</term> 
+                                    <lb/>e poi pigliano altre vie.
+                                </p>
+                            
+
+                            <p corresp="#articolo66_1">
+                                <lb/>Invece le <orgName type="educational" ref="#organizzazioni">scuole normali femminili</orgName> sono in tutta <placeName key="Italia" ref="#luoghi">Italia</placeName> 
+                                <lb/>così piene di alunne, che spesso i locali non possono acco
+                                <lb break="no"/>glierle tutte, e riescono anche per il <note type="theme" subtype="economic">profitto</note> assai migliori 
+                                <lb/>delle maschili. Le alunne che le frequentano sono in gene
+                                <lb break="no"/>rale d'un ordine sociale assai superiore a quello dei maschi. 
+                                <lb/>È vero che anche in esse vanno molte giovinette, che poi 
+                                <lb/>non fanno le <term type="occupation">maestre</term>. Ma ciò avviene per una ragione assai 
+                                <lb/>diversa da quella che produce un fatto, in apparenza, simile 
+                                <lb/>anche nelle <orgName type="educational" ref="#organizzazioni">scuole maschili</orgName>. Molte giovinette di agiate fami
+                                <lb break="no"/>glie, finita la <orgName type="educational" ref="#organizzazioni">scuola elementare</orgName>, non trovandone altre per 
+                                <lb/>continuare la loro cultura, sono costrette a cercarla nelle 
+                                <lb/><orgName type="educational" ref="#organizzazioni">scuole normali</orgName>. Ciò non ostante, il numero di queste che pigliano 
+                                <lb/>il <term>diploma</term> per insegnare è infinitamente superiore a quelle 
+                                <lb/>dei maschi. Il fatto è che per servirci d'una frase inglese, 
+                                <lb/><quote corresp="#citazioni">« il mercato rigurgita di maestre»</quote> e spesso buone <term type="occupation">maestre</term>, 
+                                <lb/>mentre non è facile trovare un buon <term type="occupation">maestro</term>. La spiega
+                                <lb break="no"/>zione di ciò è semplicissima. L'<term type="theme" ref="#temi_motivi">insegnamento elementare</term> è 
+                                <lb/>fino ad oggi quasi la sola professione che la donna possa 
+                                <lb/>intraprendere in <placeName key="Italia" ref="#luoghi">Italia</placeName>. Tutte le altre vie o le son chiuse 
+                                <lb/>o offrono lavoro troppo scarso e forse anche peggio <note type="theme" subtype="economic">re
+                                <lb break="no"/>tribuito</note>.
+                            </p>
+
+                            <p corresp="#articolo66_2">
+                                <lb/>Per dirla cogli <term type="occupation">economisti</term> adunque, l'<term type="economic">offerta</term> è maggiore 
+                                <lb/>della <term type="economic">domanda</term>, e quindi tutte le ben note conseguenze. Il <term type="economic">sa
+                                <lb break="no"/>lario </term> diminuisce, e cresce il lavoro richiesto da ognuno, e si 
+                                <lb/>impongono condizioni sempre più dure. La donna si trova, 
+                                <lb/>sotto un certo aspetto, in una condizione simile a quella dei 
+                                <lb/><term type="occupation">contadini</term> di quelle parti delle province meridionali o della 
+                                <lb/><placeName key="Lombardia" ref="#luoghi">Lombardia</placeName> dove, mancando l'<orgName ref="#organizzazioni">industria </orgName> e sovrabbondando le 
+                                <lb/>braccia, il <term type="economic">salario </term> discende a ciò che è strettamente necessa
+                                <lb break="no"/>rio perche il <term type="occupation">lavoratore della terra</term>, ridotto quasi allo <note type="theme" subtype="condition" corresp="temi_motivi">stato di 
+                                <lb/>schiavo </note>, non muoia. Non muoia, ma viva abbrutito, estenua
+                                <lb break="no"/>to, tormentato dalla <term>pellagra</term> e da mille altri malanni. Se non 
+                                <lb/>che, bisogna essere giusti, e però abbiamo detto sotto un certo 
+                                <lb/>aspetto. Infatti la legge che non interviene in favore del <term type="occupation">con
+                                <lb break="no"/>tadino </term>, interviene in favore dei <term type="occupation">maestri</term> e delle <term type="occupation">maestre ele
+                                <lb break="no"/>mentari</term>, che sono <term type="occupation">pubblici ufficiali</term>, e stabilisce il minimo dei 
+                                <lb/><term type="economic">salari </term>. Ci sono, è vero, alcuni i quali trovano ciò assurdo, 
+                            </p>
+                        
+                            <cb/>
+                            <p corresp="#articolo66_3">
+                                <lb/>contrario ai canoni dell'<term type="theme" ref="#temi_motivi">economia politica</term>, e colla più profon
+                                <lb break="no"/>da e ingenua convinzione domandano : Se io, <term type="occupation">sindaco</term>, trovo 
+                                <lb/>nel mio <placeName key="comune" ref="#luoghi">comune</placeName> una <term type="occupation">maestra</term> a 300 <term>lire</term> l'anno, con qual di
+                                <lb break="no"/>ritto il <orgName ref="#organizzazioni">governo</orgName> mi obbliga a dargliene 600, quando essa sa
+                                <lb break="no"/>rebbe lietissima d'accettar la mia <term>offerta</term>? In ogni modo la 
+                                <lb/>legge c'è, e protegge la <term type="occupation">maestra</term>. Se non che troppo spesso, 
+                                <lb/>come segue in <placeName key="Italia" ref="#luoghi">Italia </placeName>, questa legge è frodata, non è eseguita. 
+                                <lb/>Col nome d'incaricate, <term type="occupation">assistenti </term>, <term type="occupation">supplenti provvisorie</term>, con 
+                                <lb/>mille forme di <term>contratti</term> contrari alla <term>legge</term> si cerca pagare 
+                                <lb/>meno che si può, specialmente nei piccoli <placeName key="comuni" ref="#luoghi">comuni</placeName> dove l'oc
+                                <lb break="no"/>chio del <orgName ref="#organizzazioni">governo </orgName> non arriva, e dove la povera <term type="occupation">maestra </term>, spes
+                                <lb break="no"/>so lontana dai suoi e non protetta da alcuno, è qualche volta 
+                                <lb/>esposta anche a <term>vessazioni </term> che il tacere è bello.
+                            </p>
+                        
+                            <p corresp="#articolo66_4">
+                                <lb/>Non appena una giovanetta di un'agiata o povera fa
+                                <lb break="no"/>miglia ha ottenuto il <term>diploma </term>, spinta dalla <note type="theme" corresp="#temi_motivi">miseria</note>, dal de
+                                <lb break="no"/>siderio d'aiutare i suoi, dal bisogno d'<note type="theme" corresp="#temi_motivi">indipendenza</note>, anche 
+                                <lb/>dalle sola ambizione di vestire con qualche eleganza, cerca 
+                                <lb/>di essere <note type="theme">impiegata</note>. E come le <term type="economic">domande</term> sono spesso più 
+                                <lb/>dei posti, e gli uomini non vedono punto volentieri questa 
+                                <lb/>grande <term>concorrenza</term>, cosi essa è costretta a non esser troppo 
+                                <lb/>esigente nelle sue pretese. Occupate le <orgName ref="#organizzazioni">scuole femminili</orgName> e 
+                                <lb/>gli <orgName ref="#organizzazioni">asili</orgName>, le <term type="occupation">maestre</term> entrarono nelle <orgName type="institutional" ref="#organizzazioni">scuole maschili</orgName>, dove 
+                                <lb/>ebbero le <term>classi inferiori</term> che sono le più numerose e le più 
+                                <lb/>faticose. Tentano ogni via per entrare in <term>ufficio</term> anche 
+                                <lb/>prima dell'età prescritta dalla <term>legge</term>, e non esaminano punto 
+                                <lb/>se la loro salute è tale da resistere alla fatica non piccola 
+                                <lb/>di reggere una <term>classe</term> numerosa di bambini indisciplinati, 
+                                <lb/>che le obbligano a vociferare per tutto il giorno senza posa. 
+                                <lb/>Cominciata a provare la soddisfazione del proprio <term>guadagno</term> 
+                                <lb/>e della propria <note type="theme" corresp="#temi_motivi">indipendenza</note>, non smettono se anche la sa
+                                <lb break="no"/>lute deperisce, e molto spesso se lo <term type="economic">stipendio </term> è magro, 
+                                <lb/>fanno <term type="economic">economia </term> cibandosi male per vestirsi bene.
+                            </p>
+                        
+                            <p corresp="#articolo66_5">
+                                <lb/>Conseguenza naturale di tutto ciò è che la salute delle 
+                                <lb/><term type="occupation">maestre </term> va per tutto rapidamente peggiorando, e che fra 
+                                <lb/>di esse il numero di quello che sono affette di <term>tisi</term> è tale, 
+                                <lb/>che, ove se ne pubblicasse una <term>statistica </term>, farebbe paura. Chi 
+                                <lb/>visita le <orgName type="institutional" ref="#organizzazioni">scuole </orgName> se ne accorge subito. Le <term>maestre</term> sono ge
+                                <lb break="no"/>neralmente pallide, fioche, sparute. Non di rado vanno nella 
+                                <lb/><placeName ref="#luoghi">sala della direzione </placeName> e si gettano esauste sopra una sedia 
+                                <lb/>tanto per pigliar fiato, e cercano nascondersi allo sguardo 
+                                <lb/>non sempre pietoso dei <term type="occupation">maestri </term>, i quali sanno che, senza la 
+                                <lb/><term>concorrenza</term> della donna, farebbero rialzare i propri <term type="economic">sti
+                                <lb break="no"/>pendi</term>. Quindi assenze numerose, malattie continue, bisogno 
+                                <lb/>di <term>supplenze</term>, e però spese che, se si facessero per miglio
+                                <lb break="no"/>rare fin da principio la <note type="theme" corresp="#temi_motivi">condizione delle maestre</note>, sarebbero 
+                                <lb/>certo assai più utili.
+                            </p>
+                        
+                            <p corresp="#articolo66_6">
+                                <lb/>Parecchi <term>municipi</term>, per impedire le continue assenze, 
+                                <lb/>hanno fatto <term>regolamenti</term> i quali preserivono che chi, per mal
+                                <lb break="no"/>attia o per altra ragione qualunque, oltrepassa, in un dato 
+                                <lb/>tempo, un certo numero di <term>assenze</term>, perde ogni diritto al
+                                <lb break="no"/>l'<note type="theme" corresp ="#temi_motivi">aumento quinquennale</note> dello <term type="economic">stipendio</term>. E allora si vedono 
+                                <lb/>le <term type="occupation">maestre</term> soffocate dalla tosse, oppresse dall'affanno, qual
+                                <lb/>che volta incinte di nove mesi, andare a far <term>lezione</term>. Ciò 
+                                <lb/>è tanto vero, che qualche <placeName key="municipio" ref="#luoghi">municipio</placeName> ha dovuto annullare il 
+                                <lb/><term>regolamento</term> fatto; altri ne propongono l'annullamento. Ab
+                                <lb break="no"/>biamo di recente letto nei <term type="work" ref="#opere">giornali fiorentini</term>, che essendo 
+                                <lb/>state negli scorsi giorni le <term type="occupation">maestre</term> di <placeName>Firenze</placeName> invitate, 
+                                <lb/>secondo la <term>legge</term>, ad insegnare o ad apprendere la <term>ginna
+                                <lb break="no"/>stica</term> per poi insegnarla, 75 su 147 si dichiararono inca
+                                <lb break="no"/>paci, per motivi di salute, a fare <term>esercizi ginnastici</term>. E di
+                            </p>
+                        </div>
+                        
+                        <!--immagine 2-->
+                        <div facs="immagini/lemaestreelementari2.jpg">
+                            <pb/>
+                            <p corresp="#articolo66_7">
+                                <lb/>esse i <term type="occupation">medici</term> avendone esaminate 61 ne dovettero esentare 
+                                <lb/>53. Chi, sa che cosa sia la <term>ginnastica</term> femminile nelle 
+                                <lb/><orgName type="institutional" ref="#organizzazioni">scuole</orgName>, sa ancora che solamente quelle che sono addirittura 
+                                <lb/>invalide ne vengono esentate, e capirà che cosa significano 
+                                <lb/>quelle cifre. Esse bastano a provare, che quanto abbiamo 
+                                <lb/>detto sullo <note type="theme" corresp="#temi_motivi"> stato di salute</note> delle nostre <term type="occupation">maestre</term> non è esa
+                                <lb break="no"/>gerczione. Se tale infatti è lo stato delle cose a <placeName key="Firenze" ref="#luoghi">Firenze</placeName>, 
+                                <lb/>che sarà dove la cultura è minore, dove si curan meno le 
+                                <lb/><orgName type="institutional" ref="#organizzazioni">scuole elementari</orgName>?
+                            </p>
+                        
+                            <p corresp="#articolo66_8">
+                                <lb/>Che fare adunque? Il problema non è semplice. E in
+                                <lb break="no"/>nanzi tutto, sappiamo quanto nelle <orgName type="institutional" ref="#organizzazioni">scuole italiane</orgName> sia tra
+                                <lb break="no"/>scurata l'<term type="theme" ref="#temi_motivi">igiene</term>. Le <orgName type="institutional" ref="#organizzazioni">scuole</orgName>, se anche freddissime, non sono 
+                                <lb/>quasi mai riscaldate. Alla circolazione dell'aria si bada 
+                                <lb/>poco o punto, a molte <term type="theme" ref="#temi_motivi">regole igieniche</term> si bada poco o non 
+                                <lb/>si bada per nulla, spesso i locali sono anche umidi.
+                            </p>
+                        
+                            <p corresp="#articolo66_9">
+                                <lb/>Per queste condizioni soffre l'uomo e soffre la donna; 
+                                <lb/>ma questa assai di più, essendo di<note type="theme" corresp="#temi_motivi">salute</note> più debole. Il 
+                                <lb/><term ref="#organizzazioni">Governo</term> dovrebbe su di ciò esser severo. obbligare i <term>mu
+                                <lb break="no"/>nicipi</term> a rispettar le <term>leggi</term> dell'<term type="theme" ref="#temi_motivi">igiene</term>, e chiudere le <orgName>scuole</orgName> 
+                                <lb/>malsane. Invece è generalmente d'una oscitanza senza limiti. 
+                                <lb/>E così dovrebbe curare assai più che non fa, l'<term>esecuzione</term> 
+                                <lb/>della <term>legge</term> quanto agli <term type="economic">stipendi</term>. Dovrebbe riprendere in 
+                                <lb/><term>esame</term> gli orari, e fare in maniera che le <term>lezioni orali</term> ve
+                                <lb break="no"/>nissero di tanto in tanto interrotte da <term>esercizi</term> che dessero 
+                                <lb/>modo alla <term type="occupation">maestra</term> di riposare la voce. Dovrebbe vegliare 
+                                <lb/>perchè nessuna giovanetta cominciasse a far la <term type="occupation">maestra</term> in una 
+                                <lb/><orgName type="institutional" ref="#organizzazioni">scuola pubblica</orgName> prima dell'età preseritta, e non permettere 
+                                <lb/>che assumessero l'ufficio quelle che non hanno la salute 
+                                <lb/>per esercitarlo. Insomma esigere che le <term type="occupation">autorità scolastiche</term> 
+                                <lb/>locali s'occupassero delle <orgName type="institutional" ref="#organizzazioni">scuole</orgName> assai più che non fanno.
+                            </p>
+                        
+                            <p corresp="#articolo66_10">
+                                <lb/>Ma tutto ciò non basta. Bisogna pensare anche ad aprire 
+                                <lb/>all'<note type="theme" corresp="#temi_motivi">attività della donna</note> l'esercizio di altre <term>professioni</term>. Sola
+                                <lb/>mente allora essa potrà discutere e scegliere quella che è 
+                                <lb/>più adatta alle sue forze intellettuali, morali e fisiche. Fino 
+                                <lb/>a che non hanno che una sola via aperta dinanzi a loro, 
+                                <lb/>tutte si affolleranno in quella ad occhi chiusi, e nessun 
+                                <lb/>consiglio, nessuna cura le renderà caute abbastanza. A 
+                                <lb/>questo fine gioverebbero le <orgName type="institutional" ref="#organizzazioni">scuole professionali</orgName> e l'ammis
+                                <lb break="no"/>sione da quelle agl'impieghi nelle poste, dove ancora non 
+                                <lb/>sono, e nei <term>telegrafi</term> dove appena cominciano ad entrare. Il 
+                                <lb/>pensiero che ebbe il <term type="occupation">ministro</term> <persName key="De_Sanctis" ref="#persone_reali">De Sanctis</persName> di fondare due 
+                                <lb/><orgName type="institutional" ref="#organizzazioni">scuole normali superiori</orgName>, per abilitare le giovanette ad in
+                                <lb break="no"/>segnare nelle <orgName type="institutional" ref="#organizzazioni">scuole normali</orgName>, nelie famiglie, negli educan
+                                <lb break="no"/>dati, nelle <orgName type="institutional" ref="#organizzazioni">scuole femminili superiori</orgName>, ci pareva per queste 
+                                <lb/>ragioni eccellente. Le giovanette di maggiore ingegno e 
+                                <lb/>di minor salute, quelle che per le abitudini contratte in 
+                                <lb/>famiglia o per altra ragione non si sentissero nate per la 
+                                <lb/><orgName type="institutional" ref="#organizzazioni">scuola elementare</orgName>, comincerebbero ad avere un'altra via 
+                                <lb/>aperta.
+                            </p>
+                        
+                            <p corresp="#articolo66_11">
+                                <lb/> Questo pensiero trovò favore anche nel <term type="occupation">ministro</term> <persName key="Coppino" ref="#persone_reali">Cop
+                                <lb break="no"/>pino</persName> che fece pubblicare i <term>decreti</term> di fondazione e li so
+                                <lb break="no"/>stenne dinanzi alla <orgName ref="#organizzazioni">Camera</orgName>. Con nostro dispiacere sentiamo 
+                                <lb/>però che egli vagheggia idee assai più grandiose, e pensa a 
+                                <lb/><orgName type="institutional" ref="#organizzazioni">ginnasi femminili</orgName> che conducano le donne fino nelle <orgName type="institutional" ref="#organizzazioni">Uni
+                                <lb break="no"/>versità</orgName>. Per parte nostra non abbiamo difficoltà alcuna ad 
+                                <lb/>approvare un sistema di educazione identico per l'uomo e per 
+                                <lb/>la donna. Non crediamo però che in <placeName key="Italia" ref="#luoghi">Italia</placeName> ci si possa arrivare 
+                                <lb/>ad un tratto. E quando vediamo che uno è assai freddo nel 
+                                <lb/>concedere dieci, gli prestiamo poca fede se ci promette cento.
+                            </p>
+                        
+                            <p corresp="#articolo66_12">
+                                <lb/>Molti dei nostri pretesi radicali si trovano in questa, come 
+                                <lb/>nella questione religiosa, in una singolar posizione. Debbono 
+                                <lb/>dire d'esser <term>pretofobi</term>, perche è la bandiera del partito; 
+                                <lb/>ma debbono contentare i clericali che sono in gran numero 
+                                <lb/>nelle loro file. Debbono proclamare l'istruzione obbligatoria, 
+                                <lb/>perchè è anch'essa scritta sulla bandiera del partito; ma 
+                                <lb/>non debbono per essa iscrivere alcuna somma nei bilanci 
+                                <lb/>dello Stato, del Comune o della Provincia, ne prendere al
+                            </p>
+                        
+                            <cb/>
+                            <p corresp="#articolo66_13">
+                                <lb break="no"/>tro efficace provvedimento, per contentare coloro che non 
+                                <lb/>la vogliono. E così abbiamo avuto dal <term type="occupation">ministro</term> <persName key="Coppino" ref="#persone_reali">Coppino</persName> ap
+                                <lb break="no"/>punto quella legge sull'<term type="theme" ref="#temi_motivi">istruzione obbligatoria</term> che tutti co
+                                <lb break="no"/>noscono, e che ormai non ha piu bisogno d'essere spiegata 
+                                <lb/>ad alcuno. Non saremmo punto maravigliati se ragioni poli
+                                <lb break="no"/>tiche l'obbligassero a proclamare l'istruzione secondaria clas
+                                <lb break="no"/>sica e universitaria delle donne. Si aprirebbero <orgName type="institutional" ref="#organizzazioni">scuole</orgName> cui 
+                                <lb/>le donne non anderebbero, e sarebbero contenti quelli che 
+                                <lb/>vogliono e quelli che non vogliono la coltura della donna. 
+                                <lb/>Quanto a noi, lo loderemmo se invece promettesse meno e 
+                                <lb/>facesse di più e più seriamente. E intanto pigliasse qual
+                                <lb break="no"/>che provvedimento che tutelasse meglio le povere <term type="occupation">maestre 
+                                <lb/>elementari</term> per tutto, ma specialmente nei piccoli comuni.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--BIBLIOGRAFIA E NOTIZIE-->
+                <div type="bibliografia_notizie66">
+                    
+                    <!-- Bibliografia-->
+
+                        <div type="testo">
+
+                            <!--immagine 1-->
+                            <div facs="immagini/bibliografia66_1.jpg">
+
+                                <pb/>
+                                <p corresp="#bibliografia66_0">
+                                    <lb/><title>BIBLIOGRAFIA. </title>
+                                    <lb/><title>LETTERATURA E STORIA.</title>
+                                    <lb/>
+                                    <lb/>
+                                        <biblStruct>
+                                            <analytic>
+                                                <author>
+                                                <persName ref="#persone_reali">
+                                                    <forename>Marcello</forename>
+                                                    <surname>Staglieno</surname>
+                                                </persName>
+                                                </author>
+                                                <title level="a" ref="#opere">Le donne nell'antica società genovese. </title>
+                                            </analytic>
+                                            <monogr>
+                                                <imprint>
+                                                <pubPlace ref="#luoghi">Genova. </pubPlace>
+                                                <publisher ref="#casa_editrice">Tip. de’ Sordo-muti</publisher>
+                                                <date ref="#date">1879</date>
+                                                </imprint>
+                                            </monogr>
+                                        </biblStruct>
+                                </p>
+                                
+                                <p corresp="#bibliografia66_1">
+                                    <lb/>Ecco un <term type="work" ref="#opere">libretto</term>, piccolo di mole, ma pieno di notizie 
+                                    <lb/>importanti insieme e curiose, che svelano gran parte della 
+                                    <lb/>vita dei nostri vecchi. Ogni pubblicazione di fatti storici è 
+                                    <lb/>di massima importanza, ma quelle che mettono in chiaro 
+                                    <lb/>le costumanze delle età trascorse vincono forse al paragone 
+                                    <lb/>anche le prime, facendoci conoscere ciò che più intima
+                                    <lb break="no"/>mente appartiene alla vita dei popoli e delle nazioni. Di 
+                                    <lb/>siffatta natura è questo lavoro del signor <persName>Staglieno</persName>, che con 
+                                    <lb/>abbondanza di fatti e minuta cognizione di particolari 
+                                    <lb/>descrive tutto ciò che appartiene al <term type="theme" ref="#temi_motivi">costume femminile</term> 
+                                    <lb/>nell’antica <placeName type="political" key="Genova" ref="#luoghi">società genovese</placeName>.
+                                </p> 
+
+                                <p corresp="#bibliografia66_2">
+                                    <lb/>In tre parti è distinto il suo <term type="work" ref="#opere">lavoro</term>, discorrendo nella 
+                                    <lb/>prima della <term type="theme" ref="#temi_motivi">donna ancor fanciulla</term> e accompagnandola fino 
+                                    <lb/>al limitare della casa ove andrà sposa. A questo proposito 
+                                    <lb/>parla della <term type="theme" ref="#temi_motivi">educazione ed istruzione delle fanciulle genovesi</term>, 
+                                    <lb/>ch’era davvero assai scarsa se fino alla fine del seco
+                                    <lb break="no"/>lo passato rara cosa era che una donzella, anche delle 
+                                    <lb/>più ragguardevoli della città, fosse in grado di scrivere 
+                                    <lb/>correttamente una <term type="work" ref="#opere">lettera</term>. Le più erano chiuse nei <placeName type="religious" ref="#luoghi">mona
+                                    <lb break="no"/>steri</placeName>, de’ quali ve n’ era per ogni classe sociale, per la 
+                                    <lb/>nobiltà, per la borghesia, pel popolo; e dove trovavano 
+                                    <lb/>già altre parenti, zie, cugine, o sorelle, che le allettavano 
+                                    <lb/>a rimanervi, o per convinzione, o perchè indettate dai pa
+                                    <lb break="no"/>renti, o per procurarsi il piacere dei dannati, di esser in 
+                                    <lb/>maggior compagnia. Caso lagrimevole è quello che ci narra 
+                                    <lb/>lo <persName key="Staglieno" ref="#persone_reali">Staglieno</persName>, e quanti altri simili ne saranno succeduti!, di 
+                                    <lb/>un <persName key="Franzoni" ref="#persone_reali">Franzoni</persName> che aveva destinato al chiostro una figlia sua
+                                </p>
+                            </div>
+
+                            <!-- immagine 2-->
+                            <div facs="immagini/bibliografia66_2.jpg">
+                                
+                                <pb/>
+                                <p corresp="#bibliografia66_3">
+                                    <lb/>tredicenne, e relattante a prendere il velo. Mandata a far 
+                                    <lb/>visita alle <term type="occupation">suore</term> del <placeName type="religious" key="Monastero_di_San_Leonardo" ref="#luoghi">monastero di San Leonardo</placeName>, le <term type="occupation">mona
+                                    <lb break="no"/>che</term> a modo di scherzo le presero una <choice><sic>cagnuola</sic><reg>cagnolina</reg></choice> che aveva 
+                                    <lb/>in braccio e cui era molto affezionata: e portatasela via, 
+                                    <lb/>quando la fanciulla volle congedarsi, le dissero di venirla 
+                                    <lb/>a prendere: ed ella senz’avvedersene, varcò la soglia fatale, 
+                                    <lb/>che le <term type="occupation">suore</term> le chiusero immediatamente dopo le spalle. 
+                                    <lb/>Pianse e fu indarno : ritenuta colla promessa che si trat
+                                    <lb break="no"/>tava della sola sua educazione, fu circuita e non ebbe forza 
+                                    <lb/>di resistere: a diciassette anni pronunziò i <term type="theme">voti</term>: ma mor
+                                    <lb break="no"/>tole il padre, ricorse a <placeName key="Roma" ref="#luoghi">Roma</placeName>, per chiedere lo <term type="theme" ref="#temi_motivi">scioglimento 
+                                    <lb/>dei voti</term>, e allora si trovò contro la sorella maritata a un 
+                                    <lb/><persName key="Durazzo" ref="#persone_reali">Durazzo</persName>, a cui vantaggio essa era stata sotterrata nel 
+                                    <lb/><placeName type="religious" key="chiostro" ref="#luoghi">chiostro</placeName> ! Le fanciulle che non erano chiuse nè tempora
+                                    <lb break="no"/>neamente nè per sempre nei <placeName type="religious" key="monasteri" ref="#luoghi">monasteri</placeName>, rado uscivano, 
+                                    <lb/>anche perchè ciò era pericoloso; e più volte nel <date ref="#date"> sec. XVI 
+                                    <lb/>e XVII</date> la <orgName key="Repubblica" ref="#organizzazioni">Repubblica</orgName> dovette far <term type="political">leggi</term> contro i rapitori di 
+                                    <lb/>fanciulle, o contro coloro di inferior condizione, che in 
+                                    <lb/>pubblico le baciavano o abbracciavano o mettevano loro le 
+                                    <lb/>mani in seno, per obbligare i parenti a concederle loro in 
+                                    <lb/><choice><sic>ispose</sic><reg>spose</reg></choice>. Spessissimo quando erano destinate al <term type="condition" ref="#temi_motivi">matrimonio</term>, 
+                                    <lb/>venivano inconsapevoli, e per interessi domestici, promesse 
+                                    <lb/>a giovani di età tenerissima, bastando, perchè il patto fosse 
+                                    <lb/>valido, che avessero compiuti i sette anni. Gran faccendieri 
+                                    <lb/>di <term type="religious" ref="#temi_motivi">matrimoni</term> erano i <orgName key="chierici_della_madre_di_dio" ref="#organizzazioni">chierici della Madre di Dio</orgName>, e spe
+                                    <lb break="no"/>cialmente i <orgName key="Gesuiti" ref="#organizzazioni">Gesuiti</orgName>, famosi sempre per intromettersi nelle 
+                                    <lb/>cose del mondo e delle famiglie. Il <term type="religious" ref="#temi_motivi">matrimonio</term> però non 
+                                    <lb/>era, innanzi al <note type="event">Concilio di Trento</note>, un atto religioso ; ba
+                                    <lb break="no"/>stava l’atto pubblico e l’intervento del <term type="occupation">notaio</term>, il che se lo 
+                                    <lb/>fa dissimile dal presente <term type="religious" ref="#temi_motivi">matrimonio civile</term>, lo distingue 
+                                    <lb/>anche più da quello ecclesiastico. Il <term type="religious" ref="#temi_motivi">matrimonio</term> si contraeva 
+                                    <lb/>esprimendo gli sposi il loro consenso; il che fatto, gli sposi 
+                                    <lb/>si davano la mano, si abbracciavano e si baciavano, <choice><sic>indi</sic><reg>quindi</reg></choice>
+                                    <lb/>lo sposo poneva l’anello in dito alla sposa, e l’atto era
+                                    <lb/>compiuto <foreign xml:lang="la" corresp="#testo_lingua_straniera" >secundum ritum sanctae romanae ecclesiae et con
+                                    <lb/>suetudinem civitatis Januae</foreign>. Però è da avvertire che questo
+                                    <lb/>rito non era soltanto proprio di <placeName key="Genova" ref="#luoghi">Genova</placeName>, ma generale: il 
+                                    <lb/><persName key="Rossi" ref="#persone_reali">Rossi</persName> lo dimostrò simile per <placeName key="Perugia" ref="#luoghi">Perugia</placeName>, il <persName key="Vianello" ref="#persone_reali">Vianello</persName> per <placeName key="Treviso" ref="#luoghi">Tre
+                                    <lb break="no"/>viso</placeName>, il <persName key="Ficker" ref="#persone_reali">Ficker</persName> per molte altre parti d’<placeName key="Italia" ref="#luoghi">Italia</placeName>. Una consue
+                                    <lb break="no"/>tudine poi, che crediamo speciale a <placeName key="Genova" ref="#luoghi">Genova</placeName>, era che gli 
+                                    <lb/>sposi, espresso il consenso, fossero aspersi di vino, non 
+                                    <lb/>valendo ad estirpare questa costumanza nè le prescrizioni 
+                                    <lb/>del tridentino nè quelle di un sinodo provinciale del <date key="1583" ref="#date">1583</date>. 
+                                    <lb/>Dopo il <term type="religious" ref="#temi_motivi">matrimonio</term> aveva luogo la <foreign xml:lang="la" corresp="#testo_lingua_straniera">traductio</foreign> della sposa dalla 
+                                    <lb/>propria casa a quella dello sposo; e se non poteva subito 
+                                    <lb/>aver luogo per speciali ragioni, acciocché non vi fosse ap
+                                    <lb break="no"/>piglio a disfare il coniugio, gli sposi dopo la celebrazione 
+                                    <lb/>venivano chiusi soli in qualche camera : simboleggiando così 
+                                    <lb/>la consumazione del matrimonio stesso.
+                                </p>
+
+                                <p corresp="#bibliografia66_4">
+                                    <lb/>Il secondo <term type="work" ref="#opere">capitolo</term> tratta delle <term type="theme" ref="#temi_motivi">maritate</term>, delle <term type="theme" ref="#temi_motivi">vedove</term> e 
+                                    <lb/>delle <term type="theme" ref="#temi_motivi">seconde nozze</term>, e anche qui andremo delibando qual
+                                    <lb break="no"/>che notizia. Presso a partorire le donne solevano far <term type="theme" ref="#temi_motivi">testa
+                                    <lb break="no"/>mento</term> ; e ciò spiega il numero relativamente maggiore di 
+                                    <lb/>simili atti fatti da persone del bel sesso. I <term>parti</term> poi da
+                                    <lb break="no"/>vano occasione a un uso che chiamavasi con proprio nome
+                                    <lb/>il <term type="theme" ref="#temi_motivi">redoglio</term>. È noto come, non inventati ancora nè divenuti 
+                                    <lb/>generali e comuni i <term type="theme" ref="#temi_motivi">giuochi di borsa</term>, i nostri vecchi usas
+                                    <lb break="no"/>sero scommettere sopra i pubblici avvenimenti. A <placeName key="Roma" ref="#luoghi"> Roma </placeName>
+                                    <lb/>scommettevasi per un <term type="occupation">Cardinale</term> o per l’altro in tempo di 
+                                    <lb/><note type="event">Conclave</note>; a <placeName key="Genova" ref="#luoghi">Genova</placeName> per l’<term type="theme" ref="temi_motivi">elezione dei Dogi</term> in tempo di 
+                                    <lb/>sede vacante. Ma più sovente potevansi fare le scommesse 
+                                    <lb/>sul ventre pregnante, e questo era ciò cui si dava il nome 
+                                    <lb/>sopra citato.Nel <date ref="#date">secolo XVI</date> specialmente, presso ogni classe 
+                                    <lb/>di persone queste scommesse sulle donne gravide erano 
+                                    <lb/>comunissime, e bisognò che intervenisse l’autorità ecclesia
+                                    <lb break="no"/>stica a vietarle, finché ad esse succedette la passione per 
+                                    <lb/>il <term type="theme" ref="#temi_motivi">giuoco del lotto reale</term> o <term type="theme" ref="#temi_motivi">biribissi</term>, che, quantunque vietato
+                                </p>
+
+                                <cb/>
+                                <p corresp="#bibliografia66_5">
+                                    <lb/>dalle leggi, continuò a regnare fino a’ dì nostri nella <placeName type="political" key="Genova" ref="#luoghi">so
+                                    <lb break="no"/>cietà genovese</placeName>. Un’ altra usanza, se non speciale a <placeName key="Genova" ref="#luoghi">Genova</placeName>, 
+                                    <lb/>certo molto più diffusa là che altrove, era quella dei <term key="theme" ref="#temi_motivi">cicisbei</term>, 
+                                    <lb/>della quale tanto si è parlato, specialmente dagli stranieri. 
+                                    <lb/>L’origine di essa, secondo il signor <persName key="Staglieno" ref="persone_reali">Staglieno</persName>, starebbe nel
+                                    <lb break="no"/>l’uso che le donne non dovessero mai andar sole; ma poi, 
+                                    <lb/>essendo prevalsa la consuetudine che spesso uscissero dì 
+                                    <lb/>casa, nè potendo sempre il marito prestarsi ad accompa
+                                    <lb break="no"/>gnarle, si trovò taluno che lo supplisse, e che dapprima fu 
+                                    <lb/>persona di condizione inferiore, e salariata a questo fine. 
+                                    <lb/>Era quello che altrove dicevasi <term type="occupation">bracciere</term> <choice><sic>od</sic><reg>o</reg></choice> <term type="occupation">uomo nero</term>, dal 
+                                    <lb/>colore positivo dell’abito. Poi, intromettendosi la galanteria, 
+                                    <lb/>e rendendosi più frivolo, più corrotto e più ipocrita il 
+                                    <lb/>costume, ai braccieri pagati si sostituirono i volontari, 
+                                    <lb/>a proposito de’ quali forse si cadde in esagerazioni, 
+                                    <lb/>come avvertì anche l’arcigno <persName key="Barretti" ref="#persone_reali">Baretti</persName> nel suo <term type="work" ref="#opere">libro</term> sugli 
+                                    <lb/><term type="theme" ref="temi_motivi">Italiani</term>.
+                                </p>
+                                
+                                <p corresp="#bibliografia66_6">
+                                    <lb/>Il terzo <term type="work" ref="#opere">capitolo</term> tratta delle <term type="theme" ref="#temi_motivi">donne</term> nelle <placeName type="religious" ref="#luoghi">chiese</placeName>, nelle 
+                                    <lb/>processioni, ne’ <placeName type="religious" ref="#luoghi">monasteri</placeName>. Qui è curioso ciò che si dice del 
+                                    <lb/><term type="theme" ref="#temi_motivi">lusso delle donne genovesi</term> anche alle sacre funzioni. Nel 
+                                    <lb/><date ref="#date">secolo XVI e più nel XVII</date> andavano in <placeName type="religious" ref="#luoghi">chiesa</placeName> col capo pieno 
+                                    <lb/>di fiori e col seno e le braccia scoperte : tanto che la <orgName type="government" ref="#organizzazioni">SiSi
+                                    <lb break="no"/>gnoria</orgName> dovette proibire quest’abuso, pel quale la casa del
+                                    <lb break="no"/>l’orazione <quote corresp="#citazioni">« aveva aspetto di festa di ballo. »</quote> Altra biasi
+                                    <lb break="no"/>mevole costumanza sulla quale molto fu discusso dall’auto
+                                    <lb break="no"/>rità civile e dall’ecclesiastica, era quella di metter le donne 
+                                    <lb/>in chiesa a ricever le offerte dei fedeli. L’origine di que
+                                    <lb break="no"/>st’usanza risale ai <term type="occupation">raccoglitori d’indulgenze</term>, che furono 
+                                    <lb/>causa di tanta perturbazione nella <term>cattolicità</term>. Per allettare 
+                                    <lb/>i fedeli, essi ponevano ai loro banchi giovani e belle donne, 
+                                    <lb/>come si farebbe al dì d’oggi per una fiera di beneficenza. 
+                                    <lb/>Il <note type="event">sinodo</note> del <date ref="#date">1565</date> vietò quest’uso, salvo si trattasse di 
+                                    <lb/>donne che avessero passato i cinquantacinque anni: ma le 
+                                    <lb/>donne, che, secondo quel che dice <persName key="Sacchetti" ref="#persone_reali">Franco Sacchetti</persName>, sanno 
+                                    <lb/>eludere capziosamente le leggi, trovarono modo di bucare
+                                    <lb/>anche questa. Infatti, le <term type="economic">offerte</term> erano raccolte da donne di
+                                    <lb/>età matura, ma attorniate da figlie, da nepoti e da altre 
+                                    <lb/>giovani, che servivano di richiamo.Queste donne dei banchi 
+                                    <lb/>usavano perfino di battere gli offerenti con una <term>verga</term>, come 
+                                    <lb/>anche al dì d’oggi fanno i penitenzieri nella <placeName key="basilica_san_pietro" ref="#luoghi">basilica di S. Pie
+                                    <lb break="no"/>tro</placeName> in <placeName key="Roma" ref="#luoghi">Roma</placeName>. In chiesa agli uffici divini le donne erano sepa
+                                    <lb break="no"/>rate dagli uomini, generalmente dal lato sinistro : e l’uso vige 
+                                    <lb/>tuttora nelle <placeName key="campagne_liguri" ref="#luoghi">campagne liguri</placeName> : ma anche separate dagli uo
+                                    <lb break="no"/>mini, trovavano modo di far nascere scandali fra loro preten
+                                    <lb break="no"/>dendo le sedie o il cuscino, e soprattutto esigendo le nobili 
+                                    <lb/>che le uon nobili cedessero loro il posto. Nei <placeName type="religious" ref="#luoghi">monasteri</placeName> fem
+                                    <lb break="no"/>minili, rilassato assai era l’obbligo della <term type="religious" ref="#temi_motivi">clausura</term> : in 
+                                    <lb/>alcuni <placeName type="religious" ref="#luoghi">conventi</placeName> le <term type="occupation">monache</term> andavano e venivano a loro 
+                                    <lb/>talento, e ricevevano chi loro meglio piaceva, sicché spesso 
+                                    <lb/>le due autorità dovevano mettere le mani a riparare quegli 
+                                    <lb/>scandali per cui i <placeName type="religious" ref="#luoghi">monasteri</placeName> erano diventati <quote corresp="#citazioni">« turpissima 
+                                    <lb/>lupanaria »</quote>. Quando non erano imprese erotiche delle <term type="occupation">mo
+                                    <lb break="no"/>nache</term> che richiamassero sulle recluse l’attenzione dell’auto
+                                    <lb break="no"/>rità, erano pettegolezzi in cui quelle misere occupavano il 
+                                    <lb/>tempo, e si sfogavano della rea fortuna che le costringeva 
+                                    <lb/>a sì misera vita. Nel <date ref="date">1676</date> nel <placeName key="monastero_s_brigida" type="religious" ref="#luoghi">monastero di S. Brigida</placeName> avven
+                                    <lb break="no"/>ne una sollevazione a causa di un organo,che fu mandato in 
+                                    <lb/>pezzi, ritenendone ogni <term type="occupation">suora</term> presso di sè una canna; nel <date ref="#date">1705</date> 
+                                    <lb/>al <term>Carmine</term>, per la precedenza del cantare nelle sacre fun
+                                    <lb break="no"/>zioni, e nel <date ref="#date">1711</date> in <term>Portoria</term> per la costruzione di un con
+                                    <lb break="no"/>fessionale, che le vecchie volevano in un luogo, le giovani 
+                                    <lb/>in un altro. Ma alcuna volta le dissenzioni avevano più 
+                                    <lb/>grave e turpe causa, come nel <date ref="#date">1700</date> quando le <term type="occupation">monache</term> di 
+                                    <lb/><placeName type="religious" key="s_chiara" ref="#luoghi">S. Chiara</placeName> in <placeName key="Albaro" ref="#luoghi">Albaro</placeName> si divisero in <term type="occupation">fratine</term> e <term type="occupation">pretine</term>, secondo 
+                                    <lb/>tenevano dai <orgName type="religious" ref="#organizzazioni">padri francescani</orgName> o dai <orgName type="religious" ref="#organizzazioni">preti regolari</orgName>, cui la 
+                                    <lb/>Congregazione voleva affidare per buone ragioni la cura 
+                                    <lb/>spirituale del <placeName type="religious" ref="luoghi">monastero</placeName>, togliendola ai primi. Erano le 
+                                </p>
+                            </div>
+
+                            <!--immagine 3-->
+                            <div facs="immagini/bibliografia66_3.jpg">
+
+                                <pb/>
+                                <p corresp="#bibliografia66_7">
+                                    <lb/>stesse divisioni che il buon <term type="occupation">vescovo</term> <persName key="Ricci" ref="persone_reali">Ricci</persName> trovò nella sua 
+                                    <lb break="no"/><orgName type="religious" ref="#organizzazioni">diocesi</orgName>, e cercò di estirpare.
+                                </p>
+
+                                <p corresp="#bibliografia66_8">
+                                    <lb/>Queste e più altre cose raccolse e coordinò il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Staglieno" ref="#persone_reali">Sta- 
+                                    <lb break="no"/>glieno</persName>, che vedremo volentieri proseguire in simili ricerche 
+                                    <lb/>di <term type="theme" ref="#temi_motivi">storia del costume</term>. Ci piacerebbe soltanto che, a maggior 
+                                    <lb/>comodo degli studiosi, cui piacesse di più addentro ricer
+                                    <lb break="no"/>care qualche fatto da lui accennato, egli usasse di notare 
+                                    <lb/>brevemente a <term type="work" ref="#opere">piè di pagina</term> la fonte onde ha tratto le sue 
+                                    <lb/>notizie. Questa è, del resto, una guarentigia dell’ esattezza 
+                                    <lb/>delle proprie asserzioni, che ogni erudito si compiace di 
+                                    <lb/>aggiungere a ciò ch’ei scrive.
+                                </p>
+
+                                <p corresp="#bibliografia66_9">
+                                    <lb/><biblStruct>
+                                        <analytic>
+                                            <author>
+                                            <persName ref="#persone_reali">
+                                                <forename>T. Ugo</forename>
+                                                <surname>Tarchetti, </surname>
+                                            </persName>
+                                            </author>
+                                            <title level="a" ref="#opere">Disjecta, </title>
+                                            <title level="a" type="sub">versi. </title>
+                                        </analytic>
+                                        <monogr>
+                                            <imprint>
+                                            <pubPlace ref="#luoghi">(Bologna, </pubPlace>
+                                            <publisher ref="#casa_editrice">Zanichelli, </publisher>
+                                            <date ref="#date">1879)</date>
+                                            </imprint>
+                                        </monogr>
+                                    </biblStruct>
+                                
+                                    <lb/>Di questo povero <persName key="Tarchetti" ref="#persone_reali">Tarchetti</persName>, che è morto giovine dopo 
+                                    <lb/>d’aver vissuto infelice, non ci reggerebbe l’animo di dir 
+                                    <lb/>male, benché i suoi <term type="work" ref="#opere">versi</term> siano poca cosa ed anche, come 
+                                    <lb/><term type="work" ref="#opere">saggio giovanili</term>, poco promettenti. E uno <persName key="Stecchetti" ref="#persone_reali">Stecchetti</persName> vero, 
+                                    <lb/>che sa l’arte un po’ meno dello <persName key="Stecchetti" ref="#persone_reali">Stecchetti</persName> finto e fa <term type="work" ref="#opere">versi</term> 
+                                    <lb/>più casti e meno leggiadri.
+                                </p>
+
+                                <p corresp="#bibliografia66_10">
+                                    <lb/>Il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Milelli</persName>, il quale ha premesso ai <title ref="#opere">Versi</title> del <persName key="Tarchetti" ref="#persone_reali">Tar
+                                    <lb break="no"/>chetti</persName> un breve studio, ce lo dà per un uomo che compen
+                                    <lb break="no"/>diava in se <persName key="Heine" ref="#persone_reali">Heine</persName> e <persName key="Leopardi" ref="#persone_reali">Leopardi</persName>, ma, stando a quello che si 
+                                    <lb/>conosce, l’etopeia del <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Milelli</persName> pare alquanto arrischiata. 
+                                    <lb/>Il <persName key="Tarchetti" ref="#persone_reali">Tarchetti</persName>, secondo il <persName key="Milelli" ref="#persone_reali">Milelli</persName>, non appartenne a nessuna 
+                                    <lb/>combriccola letteraria, ciò che non si può dire del suo bio
+                                    <lb break="no"/>grafo, il quale manifestamente è un <term type="occupation">sacerdote</term> dell’arte 
+                                    <lb/>nuova e per di più un realista di quelli che s’inquietano e 
+                                    <lb/>trattano di malfattori ogni persona sospetta d'ideale.
+                                </p>
+
+                                <p corresp="#bibliografia66_11">
+                                    <lb/>Il <persName key="Tarchetti" ref="#persone_reali">Tarchetti</persName> disse <foreign xml:lang="la">plagas</foreign> del <persName key="Manzoni" ref="#persone_reali">Manzoni</persName>. Questo il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Mi
+                                    <lb break="no"/>lelli</persName> ammette, approva e conferma. Amò <persName key="Hugo" ref="#persone_reali">Victor Hugo</persName>, ed 
+                                    <lb/>il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Milelli</persName> lo scusa alla meglio di tale debolezza, poi 
+                                    <lb/>raccoglie sotto il <term type="work">titolo</term> onesto e cortese di vergogne, dalle 
+                                    <lb/>quali il <persName key="Tarchetti" ref="#persone_reali">Tarchetti</persName> vivente torceva lo sguardo, i nomi di 
+                                    <lb/><persName key="Bonghi" ref="#persone_reali">Ruggero Bonghi</persName>, di <persName key="Ferrari" ref="#persone_reali">Paolo Ferrari</persName>, di <persName key="Prati" ref="#persone_reali">Giovanni Prati</persName>, di 
+                                    <lb/><persName key="Aleardi" ref="#persone_reali">Aleardo Aleardi</persName>. <title ref="#opere">Vergogne</title>, a dir vero, è forse un po’ sover
+                                    <lb break="no"/>chio anche per un critico realista. Ma poiché a quei signori 
+                                    <lb/>molto probabilmente non importerà nulla dei solenni di
+                                    <lb/>spregi del <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Milelli</persName>, così non faremo noi dello zelo in 
+                                    <lb/>loro difesa.
+                                </p>
+
+                                <p corresp="#bibliografia66_12">
+                                    <lb/>Ma crede proprio il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Milelli</persName> d’aver reso un grande 
+                                    <lb/>servigio alla memoria del suo amico defunto ? Col colto 
+                                    <lb/><term>pubblico</term> si può fare a fidanza e di molto. Ma proporre come 
+                                    <lb/>un gran tipo un povero essere sbagliato, che, sebbene in
+                                    <lb break="no"/>gegnoso e buono, pure accusa tutti dell’infelicità, che si è 
+                                    <lb/>costruita da sé, che travagliato d'intolleranze morbose non 
+                                    <lb/>si contenta di nulla e insorge contro tirannie imaginarie, 
+                                    <lb/>che quando non sa più chi invidiare, invidia le mosche, 
+                                    <lb/>perchè esse almeno non sono arruolate negli eserciti stan
+                                    <lb break="no"/>ziali, che non sa neppure baciare una donna senz’andare 
+                                    <lb/>a pensare che sotto la pelle c’è il teschio ; ma proporre, 
+                                    <lb/>diciamo, come un gran tipo di Titano ribelle, una simile 
+                                    <lb/>miseria spirituale, ci sembra ormai uno di que’ luoghi co
+                                    <lb break="no"/>muni, che hanno tanto di barba bianca, e coi quali non si 
+                                    <lb/>galvanizzano più neppure i nervi delle <term type="occupation">cameriere</term>.
+                                </p>
+
+                                <p corresp="#bibliografia66_13">
+                                    <lb/>Forse anche questo studio critico del <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Milelli</persName> andrà 
+                                    <lb/>nel novero di quelle grandi <term type="work" ref="#opere">opere</term> nuove ed audaci, come il 
+                                    <lb/><choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Milelli</persName> le chiama, di cui è stata feconda la grande rea
+                                    <lb break="no"/>zione la grande scuola, che riconosce il <persName key="Tarchetti" ref="#persone_reali">Tarchetti</persName> per uno 
+                                    <lb/>de’ suoi capi. Ma via, che davvero si vuol seguitare un 
+                                    <lb/>pezzo a canzonare il prossimo con queste <term>burlette</term>? Non 
+                                    <lb/>sarebbe una bella riforma lasciare questa rettorica ai <term type="occupation">mi
+                                    <lb break="no"/>nistri</term>, quando coi programmi la danno a bere agli <term type="occupation">elet
+                                    <lb break="no"/>tori</term>? Non l’adoperi almeno un uomo di spirito, e si scri
+                                    <lb break="no"/>vano <term type="work" ref="#opere">prose</term> e <term type="work" ref="#opere">poesie</term> belle e brutte, come si è sempre fat
+                                    <lb break="no"/>to, senza darsi ogni momento quelle arie d’ apostoli e 
+                                    <lb/>senza annunciare ogni giorno il <foreign xml:lang="la" corresp="#testo_lingua_straniera">verbum novum</foreign> dell’ arte
+                                </p>
+
+                                <cb/>
+                                <p corresp="#bibliografia66_14">
+                                    <lb/>ad ogni cancherino elzeviriano che spunta. Tutta cote 
+                                    <lb break="no"/>sta palingenesi nei <term type="work" ref="#opere">versi</term> del povero <persName key="Tarchetti" ref="#persone_reali">Tarchetti</persName> non c’ è, 
+                                    <lb/>e siamo sicuri che il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Milelli</persName>, se vuol sciogliere il suo 
+                                    <lb/>arguto giudizio da ogni preoccupazione di <term>confraternita</term> e 
+                                    <lb/>di <term>apostolato</term>, se ne persuaderà presto al pari di noi. Tanto 
+                                    <lb/>è vero che, quando discorre partitamente dei lavori del 
+                                    <lb/><persName key="Tarchetti" ref="#persone_reali">Tarchetti</persName>, anche il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Milelli" ref="#persone_reali">Milelli</persName> loda a denti serrati e con 
+                                    <lb/>molte cautele. Nei <term type="work" ref="#opere">versi</term> del <persName key="Tarchetti" ref="#persone_reali">Tarchetti</persName> c’è qua e là armo
+                                    <lb break="no"/>nia, <term type="theme" ref="#temi_motivi">sentimento della natura</term> ed una certa semplicità di 
+                                    <lb/>espressione non priva di grazia. Ma nulla di più. E del 
+                                    <lb/>resto, gira e rigira, ogni <term type="work" ref="#opere">poesia</term> rimastica quasi sempre lo 
+                                    <lb/>stesso concetto e c’è tale <term type="theme" ref="#temi_motivi">abuso di teschi</term>, di <term type="theme" ref="#temi_motivi">ossa spolpa
+                                    <lb break="no"/>te</term>, di <term type="theme" ref="#temi_motivi">lenzuoli funerari</term>, di <term type="theme" ref="#temi_motivi">costole</term> e <term type="theme" ref="#temi_motivi">stinchi ritti</term>, che <choice><sic>niuno</sic><reg>nessuno</reg></choice> 
+                                    <lb/>sopporterebbe tale uggia, se durasse più di una cinquantina 
+                                    <lb/>di <term type="work" ref="#opere">pagine</term>. 
+                                </p>
+
+                                <p corresp="#bibliografia66_15">
+                                    <lb/>Non parliamo di quel <term type="work" ref="#opere">saggio di salmi penitenziali</term> in 
+                                    <lb/><term type="work" ref="#opere">prosa</term> (e qual <term type="work" ref="#opere">prosa</term>!) che tien dietro alle <term type="work" ref="#opere">poesie</term>, perchè è 
+                                    <lb/>roba veramente infantile e che lo stesso <persName key="Tarchetti" ref="#persone_reali">Tarchetti</persName> oggi 
+                                    <lb/>forse rifiuterebbe per sua.
+                                </p>
+
+                                <p corresp="#bibliografia66_16">
+                                    <lb/><title>ARTE.</title>
+                                    <lb/>
+                                    <biblStruct>
+                                        <analytic>
+                                            <author>
+                                            <persName ref="#persone_reali">
+                                                <forename>Astorre</forename>
+                                                <surname>Pellegrini. </surname>
+                                            </persName>
+                                            </author>
+                                            <title level="a" ref="#opere">Nuove illustrazioni sull’affresco del Trionfo e Danza della Morte in elusone. </title>
+                                        </analytic>
+                                        <monogr>
+                                            <imprint>
+                                            <pubPlace ref="#luoghi">Bergamo, </pubPlace>
+                                            <publisher ref="#casa_editrice">Gaffuri e Gatti, </publisher>
+                                            <date ref="date">1878.</date>
+                                            </imprint>
+                                        </monogr>
+                                    </biblStruct>
+
+                                    <lb/>
+                                    <lb/>In altro numero della <term type="work" subtype="title" ref="#opere">Rassegna</term>* rendemmo conto della 
+                                    <lb/>pubblicazione del <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Vigo" ref="#persone_reali">Pietro Vigo</persName> sopra le <title ref="#opere">Danze macabre 
+                                    <lb/>in Italia</title>, rilevandone i pregi e liberamente notandone i di
+                                    <lb break="no"/>fetti e le ommissioni. Il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Pellegrini" ref="#persone_reali">Pellegrini</persName> in questa nuova il
+                                    <lb break="no"/>lustrazione del celebre dipinto di Clusone, che <persName key="Rosa" ref="#persone_reali">Gabriele 
+                                    <lb/>Rosa</persName> descrisse nel <date ref="#date">1846</date> e <persName key="Vallardi" ref="#persone_reali">Francesco Vallardi</persName> riprodusse in 
+                                    <lb/><term type="work" ref="#opere">litografia a colori</term> nel <date ref="#date">1859</date>, non mediocremente rimprovera 
+                                    <lb/>il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Vigo" ref="#persone_reali">Vigo</persName> di alcune inesattezze in che egli è caduto, e 
+                                    <lb/>delle quali sono più veramente responsabili il <persName key="Rosa" ref="#persone_reali">Rosa</persName> ed il 
+                                    <lb/><persName key="Vallardi" ref="#persone_reali">Vallardi</persName>. <choice><sic>Niuno</sic><reg>Nessuno</reg></choice> avrebbe potuto credere che il <persName key="Rosa" ref="#persone_reali">Rosa</persName>, il quale 
+                                    <lb/>vantavasi scopritore di quel <term type="work" ref="#opere">dipinto</term>, ed il <persName key="Vallardi" ref="#persone_reali">Vallardi</persName>, che lo 
+                                    <lb/>aveva fatto disegnare sul luogo, fossero caduti in errore 
+                                    <lb/>descrivendo e riproducendo : e l'esser trascorso tanto tempo 
+                                    <lb/>senza che niuno avvertisse il fatto, doveva far credere al 
+                                    <lb/>Vigo che per discorrere di quella Danza macabra nel suo li
+                                    <lb break="no"/>bretto non fosse davvero necessario lo spingersi fino a elu
+                                    <lb break="no"/>sone. Il signor <persName key="Pellegrini" ref="#persone_reali">Pellegrini</persName> condottosi sul luogo, per altro 
+                                    <lb/>ufficio, mise a profitto il tempo, e potè notare che non 
+                                    <lb/>due sole, ma quattro, e ciascuna di più <term type="work" ref="#opere">versi</term>, sono le 
+                                    <lb/> <term type="work" ref="#opere">iscrizioni</term> nella <term>bandiera della Morte</term>, e che la vera data 
+                                    <lb/>dell’ affresco è il <date ref="#date">1485</date>. Oltre queste maggiori rettifica
+                                    <lb/>zioni, altre ancora ne registra il signor <persName key="Pellegrini" ref="#persone_reali">Pellegrini</persName> nella 
+                                    <lb/>sua relazione, nella quale acutamente indaga le <term type="theme" ref="#temi_motivi">ragioni 
+                                    <lb/>storiche del dipinto</term>, e queste ritrova soprattutto nei tristi 
+                                    <lb/>avvenimenti degli anni a cui esso appartiene. Nello scheletro 
+                                    <lb/>armato di archibugio o schioppetto si vede un’<term type="theme" ref="#temi_motivi">allusione alle 
+                                    <lb/>guerre</term>, e nel cavaliere che muore improvvisamente alla caccia 
+                                    <lb/>e nell’uccello colpito nel suo volo dal mortifero dardo, un in
+                                    <lb break="no"/>dizio della <term>peste</term> allora regnante. Il <persName ref="#personaggi">Doge</persName> a pie’del <term>sepolcro</term> 
+                                    <lb/>potrebbe raffigurare <persName key="Mocenigo" ref="#persone_reali">Giovanni Mocenigo</persName> morto appunto 
+                                    <lb/>nell’<date ref="#date">85</date>; il <term type="religious">Pontefice</term> già putrefatto, <persName key="Sisto" ref="#persone_reali">Sisto IV</persName>, morto un anno 
+                                    <lb/>prima. Riprodotte poi le quattro <term type="work" ref="#opere">iscrizioni</term>, e ogni altro 
+                                    <lb/>avanzo di  <term type="work" ref="#opere">scrittura</term>, quelle compie nelle parti mancanti con 
+                                    <lb/>ragionevoli induzioni, e largamente le illustra dall’aspetto 
+                                    <lb/>filologico, facendo anche raffronti con altre simili  <term type="work" ref="#opere">iscrizioni</term> di 
+                                    <lb/>altre Danze. E poiché il <persName key="Pellegrini" ref="#persone_reali">Pellegrini</persName> ha potuto meglio leggere 
+                                    <lb/>e trascrivere anche le  <term type="work" ref="#opere">iscrizioni</term> delle <term type="work" ref="#opere">Danze</term> dipinte nei due 
+                                    <lb/>paeselli trentini di <persName key="Pinzolo" ref="#personaggi">Pinzolo</persName> e <persName key="Carisolo" ref="#personaggi">Carisòlo</persName>, vogliamo spronarlo 
+                                    <lb/>a farcele sollecitamente conoscere; anzi, poiché egli accenna 
+                                    <lb/>che la più antica <term type="work" ref="#opere">Danza</term> macabra è quella di <placeName key="Como" ref="#luoghi">Como</placeName> e la più 
+                                    <lb/>recente quella di <persName key="Carisolo" ref="#personaggi">Carisòlo</persName>, sicché si direbbe che tali rap
+                                </p>
+                            </div>
+
+                            <div facs="immagini/bibliografianotizie66.jpg">
+
+                                <pb/>
+                                <p corresp="#bibliografia66_17">
+                                    <lb break="no"/>presentazioni mortuarie, venuteci dapprima dalla <placeName key="Svizzera" ref="#luoghi">Svizzera</placeName>, 
+                                    <lb/>passarono sul <placeName key="Bergamo" ref="#luoghi">Bergamasco</placeName> e sul <placeName key="Brescia" ref="#luoghi">Bresciano</placeName> per internarsi 
+                                    <lb/>nelle <placeName key="valli_tirolo" ref="#luoghi">valli del Tirolo</placeName>, sarebbe bene ch’egli esplorasse tutta 
+                                    <lb/>quella regione, per dare maggior fondamento a quella sua 
+                                    <lb/>supposizione, che ci sembra assai probabile. Se l’itinerario 
+                                    <lb/>così indicato dal <persName key="Pellegrini" ref="#persone_reali">Pellegrini</persName> fosse quello veramente tenuto 
+                                    <lb/>da siffatte terrifiche <term type="work" ref="#opere">pitture</term>, tanto più si verrebbe a pro
+                                    <lb break="no"/>vare ch’esse, nella forma satirica e grottesca che hanno 
+                                    <lb/>nella maggior parte d’<placeName key="Europa" ref="#luoghi">Europa</placeName>, lambirono appena il territo
+                                    <lb break="no"/>rio più settentrionale d’<placeName key="Italia" ref="#luoghi">Italia</placeName>, per <choice><sic>indi</sic><reg>quindi</reg></choice> prontamente uscirne, 
+                                    <lb/>sicché appena di sbieco appartengano all’ arte nazionale, 
+                                    <lb/>anche se dipinte da <term type="occupation">artefici</term> italiani. 
+                                </p>
+
+                                <p corresp="#bibliografia66_18">
+                                    <lb/>La pubblicazione del <choice><abbr>prof.</abbr><expan>professore</expan></choice> <persName key="Pellegrini" ref="#persone_reali">Pellegrini</persName> è accompagnata 
+                                    <lb/>da una <term>tavola litografica</term> che riproduce i cartelli delle <term type="work" ref="#opere">iscri
+                                    <lb break="no"/>zioni</term> e i <term type="work" ref="#opere">caratteri</term> della data.
+                                </p>
+
+                                <!-- Notizie -->
+                                <p corresp="#notizie66_0">
+                                
+                                    <lb/><title>NOTIZIE.</title>
+                                    <lb/>
+                                    <lb/>- Il signor <persName key="Tayler" ref="#persone_reali">Isaac Tayler</persName>, che da alcuni anni attende a investigare 
+                                    <lb/>la storia primitiva dell'alfabeto, è giunto ad alcuni <choice><sic>resultati</sic><corr>risultati</corr></choice> inaspet
+                                    <lb break="no"/>tati circa alla sorgente dalla quale derivarono i caratteri <term type="script">Runici</term>, e al 
+                                    <lb/>loro rapporto cogli <term type="script">Ogham</term>, <term type="ethnic">Gallesi</term> e <term type="ethnic">Irlandesi</term>. Egli fa risalire l'<note type="theme" corresp="#temi_motivi">origine 
+                                    <lb/>dei <term type="script">Runi</term></note> alle tribù <term type="ethnic">gotiche</term> all'est della <placeName key="Viestola" ref="#luoghi">Vistola</placeName>, e ritiene che queste 
+                                    <lb/>debbono avere acquistato conoscenza dell'alfabeto dalle antiche colonie 
+                                    <lb/>greche sul <placeName key="Dnieper" ref="#luoghi">Dnieper</placeName>. I suoi argomenti sono esposti in un <term type="work" ref="#opere">libro</term> che sarà 
+                                    <lb/>pubblicato in breve da <orgName type="publisher" ref="#casa_editrice">Macmillan e C.</orgName>, sotto il titolo: "<title type="work" ref="#opere" >Greci e Goti: 
+                                    <lb/>Studio sui Runi</title>."
+                                </p>
+                            
+                                <p corresp="#notizie66_1">
+                                    <lb/>- A <placeName key="Bombay" ref="#luoghi">Bombay</placeName> è venuta alla luce recentemente una traduzione in 
+                                    <lb/>lingua <term type="language">indiana</term> di <title type="work" ref="#opere">Romeo e Giuletta</title>. Gli eroi della tragedia portano i 
+                                    <lb/>nomi di <persName key="Ajaysintha" ref="#personaggi">Ajaysintha</persName> e di <persName key="Vilasvati" ref="#personaggi">Vilasvati</persName>. 
+                                    <lb/>(<foreign xml:lang="fr" corresp="#testo_lingua_straniera"><title ref="#opere">Revue politique et litteraire</title></foreign>)
+                                    </p>
+                                    <p>
+                                    <lb/>- Alla <orgName type="institution" ref="#organizzazioni">Scuola superiore di commercio</orgName> di <placeName key="Lione" ref="#luoghi">Lione</placeName> è stato fondato dal 
+                                    <lb/>signor <persName key="Guimet" ref="#persone_reali">Emile Guimet</persName> un corso di <term type="languageCourse">giapponese</term>. Le lezioni, che vengono 
+                                    <lb/>date da tre giovani <term type="occupation">professori indigeni</term> fatti venire espressamente, sono 
+                                    <lb/>seguite a un cinquantina di alunni, parecchi dei quali, si spera, sa
+                                    <lb break="no"/>ranno abbastanza avanzati alla fine dell'anno per rendersi al <placeName key="Giappone" ref="#luoghi">Giappone</placeName>. 
+                                    <lb/>Il signor <persName key="Guimet" ref="#persone_reali">Guimet</persName> si propone di aprire anche dei corsi di <term type="language"><choice><sic>chinese</sic><corr>cinese</corr></choice></term> e di 
+                                    <lb/>arabo.
+                                    <lb/>(<foreign xml:lang="fr" corresp="#testo_lingua_straniera"> <title ref="#opere">Revue politique et litteraire</title> </foreign> )
+                                </p>
+                            
+                                <p corresp="#notizie66_2">
+                                    <lb/>- Il signor<persName key="Soleillet" ref="#persone_reali">Paul Soleillet</persName>, che parti da <placeName key="s_luigi" ref="#luoghi">S. Luigi</placeName> nel <placeName key="Senegal" ref="#luoghi">Senegal</placeName> col
+                                    <lb break="no"/>l'intenzione di recarsi in <placeName key="Algeria" ref="#luoghi">Algeria</placeName> per il<placeName key="Sahara" ref="#luoghi">Sahara</placeName>, secondo le ultime no
+                                    <lb break="no"/>tizie ricevute a <placeName key="Parigi" ref="#luoghi">Parigi</placeName> per telegrafo, era arrivato a <placeName key="Segon" ref="#luoghi">Segon</placeName>, capitale 
+                                    <lb/>dello <orgName type="state" ref="#organizzazioni">stato negro</orgName> di questo nome, e proseguiva il suo viaggio. Questo * 
+                                    <lb/>animoso viaggiatore avea ricevuto soltanto 6000 franchi dal <term type="occupation">governa
+                                    <lb break="no"/>tore generale del <placeName key="Senegal" ref="#luoghi">Senegal</placeName></term>. 
+                                    <lb/>(<foreign xml:lang="en" corresp="#testo_lingua_straniera"><title ref="#opere">Nature</title> </foreign>)
+                                </p>
+                            
+                                <p corresp="#notizie66_3">
+                                    <lb/>- Il <date ref="#date">15 di Maggio</date> si riunirà a <placeName key="Parigi" ref="#luoghi">Parigi</placeName> sotto la presidenza del si
+                                    <lb break="no"/>gnor di <persName key="Lesseps" ref="#persone_reali">Lesseps</persName>, una <orgName type="institution" ref="#organizzazioni">Commissione internazionale</orgName> per discutere i vari 
+                                    <lb/>progetti proposti per la costruzione di un <note type="theme" corresp="#temi_motivi">Canale navigabile nell'Ame
+                                    <lb break="no"/>rica centrale</note> (<foreign xml:lang="en">Central-American Ship Canal</foreign>). 
+                                    <lb/>(<foreign xml:lang="en" corresp="#testo_lingua_straniera"><title ref="#opere">Academy</title> </foreign>)
+                                </p>
+                            
+                                <p corresp="#notizie66_4">
+                                    <lb/>- L'<title ref="#opere">Esposizione triennale di Belle Arti</title> a <placeName key="Rotterdam" ref="#luoghi">Rotterdam</placeName> avrà luogo 
+                                    <lb/>questa estate, e si aprirà il <date ref="#date">primo di Giugno</date>. Gli <term type="group" subtype="occupation">artisti stranieri</term> sono 
+                                    <lb/>invitati a contribuirvi. 
+                                    <lb/>(<foreign xml:lang="en" corresp="#testo_lingua_straniera"><title ref="#opere">Academy</title> </foreign>)
+                                </p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!--FASCICOLO 67 -->
+            <div type="fascicolo" n="67">
+                <head>Fascicolo 67 - La Rassegna Settimanale</head>
+
+                <!-- ARTICOLO 2: "La stampa e la questione sociale in Italia."-->
+                <div type="articolo" n="1">
+
+                    <div type="testo">
+
+                        <!--immagine 1-->
+                        <div facs="immagini/lastampa1.jpg">
+                            <pb/>
+                            <p corresp="#articolo67_0">
+                                <lb/><title ref="#opere">LA STAMPA E LA QUESTIONE SOCIALE 
+                                <lb/>IN ITALIA.</title>
+                                <lb/>
+                                <lb/>Se noi dovessimo giudicare la <orgName type="media" ref="#organizzazioni">stampa italiana</orgName> solo dai 
+                                <lb/><orgName type="media" ref="#organizzazioni">giornali quotidiani</orgName>, dovremmo dire che essa rimane asso
+                                <lb break="no"/>lutamente indifferente alla <note type="theme" corresp="#temi_motivi">questione sociale</note>. Di tanto in 
+                                <lb/>tanto comparisce, è vero, qualche <term type="work" ref="#opere">articolo</term>, e si sente qualche 
+                                <lb/><note type="theme" corresp="#temi_motivi">grido d’allarme</note> sui pericoli che ci minacciano; ma poi tutto 
+                                <lb/>finisce. Abbiamo letto <term type="work" ref="#opere">articoli</term> sulle <term type="theme" ref="#temi_motivi">opere pie</term>, sull’<term type="theme" ref="#temi_motivi">emigrazione</term>, 
+                                <lb/>sul <note type="theme" corresp="#temi_motivi">lavoro dei fanciulli</note>; ma neppure di questi argomenti, per 
+                                <lb/>ora almeno innocui e modesti, sappiamo che alcun <term type="work" ref="#opere">giorna
+                                <lb break="no"/>le politico </term> abbia fatto occupazione costante e parte inte
+                                <lb break="no"/>grante del suo programma. Si direbbe che servono solo 
+                                <lb/>per passare le ore perdute. La <orgName type="media" ref="#organizzazioni">stampa quotidiana</orgName> è però 
+                                <lb/>di sua natura essenzialmente politica, e la <term type="theme" ref="#temi_motivi">vita politica</term> è 
+                                <lb/>fra noi ristretta in un cerchio così angusto di persone, 
+                                <lb/>che da essa non è possibile conoscere tutti i veri <note type="theme" corresp="#temi_motivi">bisogni 
+                                <lb/>del paese</note>, nè la su <note type="theme" corresp="#temi_motivi">vera opinione</note>.
+                            </p>
+                            <p corresp="#articolo67_1">
+                                <lb/>Infatti noi troviamo nella <orgName type="media" ref="#organizzazioni">stampa non quotidiana</orgName> alcuni 
+                                <lb/>segni i quali provano che l’<note type="theme" corresp="#temi_motivi">opinione pubblica</note> del paese
+                                <lb/>comincia lentamente, ma pur comincia a volgere una qual
+                                <lb break="no"/>che attenzione alle <note type="theme" corresp="#temi_motivi">questioni sociali</note>. Già un primo segno 
+                                <lb/>indiretto ne abbiamo nel fatto stesso che gli <term type="occupation">oratori politici</term> 
+                                <lb/>più autorevoli, si credono ora quasi sempre obbligati noi 
+                                <lb/>loro discorsi più solenni di dedicare ad esse uno o due 
+                                <lb/>periodi, cosa che prima non facevano mai. Ciò prova che 
+                                <lb/>sono al pari di noi persuasi, che un mutamento di opi
+                                <lb break="no"/>nione è già cominciato nel nostro paese. Senza dunque 
+                                <lb/>volerci fare alcuna illusione sulla <note type="theme" corresp="#temi_motivi">importanza e sulla estin
+                                <lb break="no"/>zione presente di questo mutamento</note>, a noi pare opportuno 
+                                <lb/>esaminare dagli <term type="work" ref="#opere">scritti</term> che ne sono la manifestazione, quale 
+                                <lb/>è l’indirizzo che esso prende, quale è il carattere che assu
+                                <lb break="no"/>me. E sebbene bisogna subito convenire che questo carattere è 
+                                <lb/>per ora assai indeterminato ed incerto, pure giova il cono
+                                <lb break="no"/>scerlo.
+                            </p>
+                            <p corresp="#articolo67_2">
+                                <lb/>Incominciamo dunque da una <term>Conferenza</term> tenuta nello 
+                                <lb/> <date ref="#date">scorso gennaio</date> a <placeName key="Napoli" ref="luoghi">Napoli</placeName> dal <choice><abbr>prof.</abbr><expan>professore</expan></choice> <persName key="Marghieri" ref="#persone_reali">Alberto Marghieri</persName>, e pub
+                                <lb break="no"/>blicata col titolo: <title ref="#opere">Quel che si scrive di Napoli</title>. In essa si tro
+                                <lb break="no"/>vano espresse sui <term type="work" ref="#opere">libri</term> recentemente pubblicati intorno a quella 
+                                <lb/>città opinioni e pensieri che meritano di esser conosciuti, 
+                                <lb/>perchè non sono solamente del <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Marghieri" ref="#persone_reali"> Marghieri</persName>, ma anche di 
+                                <lb/>moltissimi altri suoi concittadini. Dopo una enumerazione 
+                                <lb/>abbastanza esatta, per quanto si poteva in una <term>Conferenza</term>, 
+                                <lb/>delle <term type="work" ref="#opere">opere</term> principali, l’<term>autore</term> si perde in una serie di 
+                                <lb/>considerazioni critiche e letterarie sul modo con cui questi 
+                                <lb/><term type="work" ref="#opere">libri</term> dovrebbero essere fatti. Se uno <term type="occupation">scrittore</term> poi nota al
+                                <lb break="no"/>cuni difetti o colpe dei <population><desc>Napoletani</desc></population>, egli risponde scusandoli 
+                                <lb/>colla storia del passato, che li ha fatalmente condotti in 
+                                <lb/>quello stato. Se il <persName key="Villari" ref="#perone_reali">Villari</persName> descrive i <term type="theme" ref="#temi_motivi">fondaci</term>, il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Marghieri" ref="#persone_reali">Mar
+                                <lb break="no"/>ghieri</persName> obbietta che il <persName key="Villari" ref="#perone_reali">Villari</persName> ha raccolto le notizie da un 
+                                <lb/><term type="occupation">ingegnere</term> o da un <term type="occupation">vice-sindaco</term>, e non osserva neppure che 
+                                <lb/>dopo le notizie dell’ <term type="occupation">ingegnere</term>, c’è la descrizione dei fon
+                                <lb break="no"/>daci visitati dal <persName key="Villari" ref="#perone_reali">Villari</persName> stesso. Alla signora <persName key="Mario" ref="#persone_reali">Mario</persName> che de
+                                <lb/>scrive un <term type="theme" ref="#temi_motivi">sotterraneo</term> da lei visitato, non nega la verità del 
+                                <lb/>fatto, anzi aggiunge che potrebbe descrivere di peggio ; 
+                                <lb/>poi risponde <quote corresp="#citazioni"> « Ma qui non si tratta di ciò, bensì di 
+                                <lb/>considerare se questa miseria è proprio solo ed esclusiva 
+                                <lb break="no"/>mente di <placeName key="Napoli" ref="#luoghi">Napoli</placeName>. » </quote> Quando il <persName key="Villari" ref="#perone_reali">Villari</persName> e la <persName key="Mario" ref="#persone_reali">Mario</persName> l’affermano 
+                                <lb/>maggiore e peggiore di quella di <placeName key="Londra" ref="#luoghi">Londra</placeName>, sebbene essi non 
+                                <lb/>possono, come nessuno può esser sicuro d’aver visto tutto 
+                            </p>
+                            <cb/>
+                            <p corresp="#articolo67_3"> 
+                                <lb/>ciò che c'è di peggio a <placeName key="Londra" ref="#luoghi">Londra</placeName>, il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Margieri" ref="persone_reali">Marghieri</persName> risponde: 
+                                <lb/><quote corresp="citazioni">« Ciò appunto mi autorizza a non credervi. »</quote>
+                            </p>
+                            <p corresp="#articolo67_4">
+                                <lb/>Ma come il <choice><abbr>prof.</abbr><expan>professore</expan></choice> <persName key="Marghieri" ref="#persone_reali">Marghieri</persName>, che pur sembra persona in
+                                <lb break="no"/>telligente e piena di buon volere, non capisce che tutta 
+                                <lb/>questa discussione è assolutamente oziosa! I fatti che si 
+                                <lb/>adducono, i giudizi che si danno sono veri o falsi? Se sono 
+                                <lb/>falsi, si correggano; se incompiuti, si compiano con altri ; se 
+                                <lb/>sono veri si cerchino i rimedi ai mali: si facciano insomma 
+                                <lb/>lavori migliori, ma non si solletichi quella vanità locale 
+                                <lb/>che deve trovarsi a <placeName key="Napoli" ref="#luoghi">Napoli</placeName>, come in ogni altra città ita
+                                <lb break="no"/>liana, specialmente in ogni grande città, spronando così a 
+                                <lb/>chiudere gli occhi, non ad aprirli ed a cercare i rimedi. 
+                                <lb/>Questo noi diciamo al <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Marghieri" ref="#persone_reali">Marghieri</persName>, perchè ci sembra che 
+                                <lb/>sia desideroso del bene della sua <placeName type="città" ref="#luoghi">città natale</placeName>, nella quale 
+                                <lb/>sono pur nati <term type="occupation">scrittori</term> come <persName key="Fortunato" ref="#persone_reali">il Fortunato</persName>, <persName key="Bear" ref="#persone_reali">il Baer</persName>, <persName key="Turiello" ref="#persone_reali">il Tu- 
+                                <lb break="no"/>riello</persName> ed altri molti, che si dimostrano persuasi della neces
+                                <lb break="no"/>sità di dire il vero senza reticenze.
+                            </p>
+                            <p corresp="#articolo67_5">
+                                <lb/>Questo medesimo desiderio di giovare al propria <placeName key="paese" ref="#luoghi">paese</placeName>, 
+                                <lb/>ma pur di attenuare o anche nascondere le più dure verità, 
+                                <lb/>noi troviamo in un gran numero di piccoli <term type="work" ref="#opere">scritti</term>, usciti di 
+                                <lb/>recente più specialmente nelle <placeName type="region" ref="#luoghi">province meridionali</placeName> intorno 
+                                <lb/>allo <term type="theme" ref="#temi_motivi">stato dei contadini</term> ed alla <note type="theme" corresp="#temi_motivi">questione agraria</note>. Le due 
+                                <lb/>idee che in essi s’incontrano più costantemente ripetuto 
+                                <lb/>sono queste : lo stato presente di cose è deplorabile, ma è 
+                                <lb/>conseguenza necessaria del passato e delle leggi economiche. 
+                                <lb/>Nessuno ci ha colpa, nessuno può, nessuno deve essere accu
+                                <lb break="no"/>sato. <quote corresp="#citazioni"> «Se in una bottega,»</quote> così abbiamo letto in uno di questi 
+                                <lb/><term type="work" ref="#opere">scritti</term>, <quote corresp="#citazioni">« mi chiedono per un <term type="economic">goletto</term> ottanta centesimi, e nella 
+                                <lb/>bottega accanto me ne chiedono invece sessanta per uno 
+                                <lb/>egualmente buono, c’è alcuno che si crederà in diritto di 
+                                <lb/>obbligarmi a preferire la prima, o non riderà di me, se la 
+                                <lb/>preferisco io stesso ? Con qual ragione dunque mi si po
+                                <lb break="no"/>trebbe obbligare a pagare la <term type="theme" ref="#temi_motivi">giornata del lavoratore</term> 80 
+                                <lb/>centesimi, se ne trovo quanti’ne voglio a 60? E se altrove le 
+                                <lb/>condizioni sono diverse e migliori pel povero, e non si 
+                                <lb/>trova nessuno che lavori a meno di due lire al giorno, che 
+                                <lb/>merito ci hanno gli altri, o che demerito ci abbiamo noi, 
+                                <lb/>che se fossimo colà pagheremmo di certo le due lire? »</quote> E non 
+                                <lb/>veniva in mente allo <term type="occupation">scrittore</term> di domandare a se stesso, se 
+                                <lb/>c’era una differenza fra un <persName>uomo</persName> ed un <term type="economic">goletto</term>; se lo stato 
+                                <lb/>di cose che esso descriveva come necessaria conseguenza 
+                                <lb/>del passato, era oggi o no dannoso allo <note type="theme">stato morale</note> del 
+                                <lb/><placeName key="paese" ref="#luoghi">paese</placeName>, e se era dovere di tutti il cercarvi in ogni modo ri
+                                <lb break="no"/>medio. Manca del tutto in questi <term type="work" ref="#opere">scritti</term> il <note type="theme" corresp="#temi_motivi">sentimento dei 
+                                <lb/>molteplici doveri</note> che ha la <orgName type="socialGroup" ref="#organizzazioni">classe dei proprietari</orgName> come 
+                                <lb/><orgName type="socialGroup" ref="#organizzazioni">classe dirigente e governante</orgName>, dei diritti che hanno i <term type="occupation">con
+                                <lb break="no"/>tadini</term> come <note type="theme" corresp="#temi_motivi">produttori della ricchezza pubblica</note>.
+                            </p>
+                            <p corresp="#articolo67_6">
+                                <lb/>Questo sentimento appunto noi vediamo manifestarsi in al
+                                <lb break="no"/>cuni degli <term type="work" ref="#opere">scritti</term> più recenti, che è utile perciò di non lasciare 
+                                <lb/>dimenticati. E per citare un esempio, <persName key="Materi" ref="#persone_reali"><abbr>F. P.</abbr> Materi</persName> nel suo 
+                                <lb/><term type="work" ref="#opere">opuscolo</term>: <title ref="#opere">La questione agraria in Basilicata</title> * ripete, un po’con 
+                                <lb break="no"/>fusamente è vero, i soliti argomenti, fa le stesse difese; ma in 
+                                <lb break="no"/>fine conclude, egli che è un <term type="occupation">possessore di latifondi</term> in quella 
+                                <lb/>provincia appunto: <quote corresp="#citazioni">« Siamo buoni a gridar tutti contro il 
+                                <lb/><orgName type="government" ref="#organizzazioni">governo</orgName>, quando il <term type="occupation">contadino</term> emigra. Perchè non cerchiamo 
+                                <lb/>invece affezionarlo alla terra con una più larga <term type="economic">mercede</term>, 
+                                <lb/>col difenderlo dall’usura, col dargli una casa che non sia 
+                                <lb/>più una stalla da uomini e da bestie ? E quando mi si dice :</quote>
+                            </p>
+                        </div>
+
+                        <!-- immagine 2-->
+                        <div facs="immagini/lastampa2.jpg">
+                            <pb/>
+                            <p corresp="#articolo67_7">
+                                <lb/><quote corresp="#citazioni">non è possibile; io rispondo: pensate che è possibile al
+                                <lb break="no"/>trove * »</quote>. Con coloro che vengono a queste conclusioni, 
+                                <lb/>noi possiamo facilmente intenderci. E ad essi diciamo : 
+                                <lb/>Adoperiamoci dunque uniti a trovare i <note type="theme" corresp="#temi_motivi">rimedi</note> ad a porli 
+                                <lb/>in atto. Disputeremo poi sul <note type="theme" corresp="#temi_motivi">passato</note> e sulle <note type="theme" corresp="#temi_motivi">teorie</note> che pos
+                                <lb break="no"/>sono servire solo a spiegare o a difendere questo passato.
+                            </p>
+                            <p corresp="#articolo67_8">
+                                <lb/>Le stesse considerazioni ci vengono suggerite da uno 
+                                <lb/><term type="work" ref="#opere">scritto</term> più autorevole assai, pubblicato dal <rs type="epithet">senatore</rs> <persName key="Boccardo" ref="#persone_reali">Boc
+                                <lb break="no"/>cardo</persName> nel <orgName type="journal" ref="#organizzazioni">Giornale degli Economisti di Padova</orgName>. Il <term type="politics">socialismo</term> 
+                                <lb/>in <placeName key="Italia" ref="#luoghi">Italia</placeName>. Nell’esaminare le varie forme che piglia il <term type="politics">socia
+                                <lb break="no"/>lismo</term> in <placeName key="Italia" ref="#luoghi">Italia</placeName> e fuori, egli biasima e chiama dottrinari 
+                                <lb/>coloro i quali sostengono che il <term type="politics">socialismo</term> è una delle 
+                                <lb/>malattie che accompagnano il <note type="theme" corresp="#temi_motivi">progresso delle <orgName type="society">società mo
+                                <lb break="no"/>derne</orgName></note>. In <placeName key="Russia" ref="#luoghi">Russia</placeName>, egli esclama, senza questo progresso, 
+                                <lb/>vi è il <term type="philosophy">nichilismo</term>, che esso chiama un fenomeno inespli
+                                <lb break="no"/>cabile a noi del <term type="group">mondo occidentale</term>. Veramente non sap
+                                <lb break="no"/>piamo a che possa giovare l’ addurre, per combattere 
+                                <lb/>una teoria, un fenomeno, di cui non si può ancora inten
+                                <lb break="no"/>dere il significato ed il valore. Per noi il <term type="philosophy">nichilismo</term> non 
+                                <lb/>si può paragonare nè col <term type="theme" ref="#temi_motivi">socialismo</term> nè col <term type="theme" ref="#temi_motivi">comunismo</term>, è 
+                                <lb/>una <term type="theme" ref="#temi_motivi">comunismo</term> sorta e diffusa nelle <orgName type="socialGroup" ref="#organizzazioni">classi culte ed agiate</orgName> più 
+                                <lb/>assai che nelle <term type="group">masse popolari</term>, ed in quelle bisogna trovarne 
+                                <lb/>l’origine e la spiegazione. Ma quando il <rs type="epithet">senatore</rs> <persName key="Boccardo" ref="#persone_reali">Boccardo</persName>,
+                                <lb/>esaminate le varie forme di <term type="politics">socialismo</term>, e combattute molte 
+                                <lb/>opinioni di <term type="occupation">scrittori</term> italiani e stranieri, conclude che il
+                                <lb/>pericolo grande esiste anche in <placeName key="Italia" ref="#luoghi">Italia</placeName>, e che unico rimedio 
+                                <lb/>è l'opportunità delle riforme sociali iniziate in <placeName key="Inghilterra" ref="#luoghi">Inghilterra</placeName>;
+                                <lb/>non abbiamo più voglia di disputare con lui, trovandoci 
+                                <lb/>d'accordo su quello che è il punto veramente capitale così
+                                <lb/>per noi, come per lui.
+                            </p>
+                            <p corresp="#articolo67_9">
+                                <lb/>E siamo ancora pienamente d’accordo con lui, quando bia
+                                <lb break="no"/>sima ottimismo di coloro i quali negano la possibilità d’una 
+                                <lb/><note type="theme" corresp="#temi_motivi">questione sociale in Italia</note>, e quando dice che i possidenti del 
+                                <lb/>nostro <placeName key="paese" ref="#luoghi">nostro paese</placeName> non hanno capito che la loro unica salvaguardia 
+                                <lb/>sta nel <note type="theme" corresp="#temi_motivi">migliorare le condizioni del <term type="occupation">contadino</term></note>, e afferma che la 
+                                <lb/>loro inerzia di fronte a questi pericoli nasce solo dalla ignoran
+                                <lb break="no"/>za del <note type="theme" corresp="#temi_motivi">male</note> stesso e delle sue vere cagioni. E senza consentire 
+                                <lb/>in tutte le sue precedenti spiegazioni, gli facciamo <choice><sic>plauso</sic><corr>applauso</corr></choice> di 
+                                <lb/>gran cuore quando esso conchiude invitando la nostra <orgName type="socialGroup" ref="#organizzazioni">classe 
+                                <lb/>media</orgName> ad esaminare se finora ha compiuto i suoi principali 
+                                <lb/>doveri verso le <orgName type="socialGroup" ref="#organizzazioni">classi più povere</orgName>.
+                            </p>
+                            <p corresp="#articolo67_10">
+                                <lb/>Abbiamo letto ancora il programma d’una nuova ras
+                                <lb break="no"/>segna mensile, il <title ref="#opere">Rinnovamento </title> **, che si propone come suo 
+                                <lb/>scopo principalissimo l’esaminare quali sono le <note type="theme" corresp="#temi_motivi">riforme so
+                                <lb break="no"/>ciali</note> più utili a salvare la <orgName type="society">società</orgName> da questi pericoli. Ed 
+                                <lb/>abbiamo letto ancora il primo numero d’un nuovo <term type="work" ref="#opere">giornale 
+                                <lb/>settimanale</term>, <title ref="#opere">Il Paese</title>, uscito a <title ref="#opere">Il Paese</title> nel <date ref="#date">febbraio di 
+                                <lb/>questo anno</date>. Nel suo primo <term type="work" ref="#opere">articolo</term>, che serve come di pro
+                                <lb break="no"/>grammaù, ed è dettato da uno <term type="occupation">scrittore</term> notissimo per ele
+                                <lb break="no"/>ganza di stile, per ingegno e per convinzioni politiche as
+                                <lb break="no"/>sai avanzate, <title ref="#opere">Il Paese</title> entra nello stesso ordine d’idee. Di
+                                <lb/>chiara che <placeName key="Italia" ref="#luoghi">l’Italia</placeName> è ormai stanca di <term type="theme" ref="#temi_motivi">politica</term> e di <orgName type="goup" ref="#organizzazioni">partiti</orgName>, 
+                                <lb/>i quali tutti hanno dimenticato le condizioni e i bisogni 
+                                <lb/>veri delle nostre <orgName type="socialGroup" ref="#organizzazioni">plebi</orgName> che lavorano e soffrono abbandonate. 
+                                <lb/>Si propone perciò di studiare questi bisogni dell’ <placeName key="Italia" ref="#luoghi">Italia reale</placeName>  
+                                <lb/>e, facendosene interprete, promuovere le <note type="theme" corresp="#temi_motivi">riforme sociali</note>.
+                            </p>
+                            <p corresp="#articolo67_11">
+                                <lb/>Potremmo citare molti altri <term type="work" ref="#opere">scritti</term>, molti altri <orgName type="media" >giornali</orgName>, 
+                                <lb/>ma preferiamo conchiudere fermandoci invece sopra un 
+                                <lb/>fatto, che per noi ha una importanza anche maggiore. I 
+                                <lb/>nostri lettori sanno che il <orgName type="government" ref="#organizzazioni">Consiglio Provinciale di Mantova</orgName> 
+                                <lb/>prese la nobile iniziativa di combattere la <term type="medical">pellagra</term> la quale 
+                                <lb/>affligge, e consuma le <orgName type="socialGroup" ref="#organizzazioni">popolazioni agricole</orgName> di quella provincia. 
+                                <lb/>Fu fatta un’<term type="work">inchiesta</term> e pubblicata la <term type="work" ref="#opere">relazione</term> del <rs type="epithet"><choice><abbr>dott.</abbr><expan>dottore</expan></choice></rs> <persName key="Sacelli" ref="#persone_reali">Achille 
+                                <lb/>Sacelli</persName>, nella quale era dimostrato che la malattia deriva dalla
+                            </p>
+                            <cb/>
+                            <p corresp="#articolo67_12">
+                                <lb/><term type="theme" ref="temi_motivi">miseria</term>, dal <note type="theme" corresp="#temi_motivi">lavoro eccessivo</note>, dallo <note type="theme" corresp="#temi_motivi">scarso cibo</note> e cattivo, dalle 
+                                <lb/>pessime abitazioni dei <term type="occupation">contadini</term>. Non tutte le proposte della 
+                                <lb/><term type="work" ref="#opere">relazione</term> furono approvate, e molti dei <term type="occupation">consiglieri</term>, spaventati, 
+                                <lb/>si fermarono a mezza strada, cosa che noi deplorammo. * 
+                                <lb/>Pure furono istituite commissioni contro la <term type="medical">pellagra</term> in 
+                                <lb/>tutti i comuni, fu stanziata una somma per soccorrere più 
+                                <lb/>largamente i malati, e per incoraggiare i comuni più ze
+                                <lb break="no"/>lanti nel combattere il male. E, ciò che secondo noi gio
+                                <lb break="no"/>verà assai più, fu anche istituita una <orgName type="government" ref="#organizzazioni">Commissione pro
+                                <lb break="no"/>vinciale</orgName> permanente, composta di uomini operosi e filan
+                                <lb break="no"/>tropi, di veri patrioti, i quali si propongono di stimolare 
+                                <lb/>continuamente i comuni a studiare il problema ed a prov
+                                <lb break="no"/>vedere, di tener viva ogni anno la questione innanzi al 
+                                <lb/><orgName type="government" ref="#organizzazioni">Consiglio provinciale</orgName>. E già si sono messi all’opera con un 
+                                <lb/>ardore degno della nobile causa che han preso a difen
+                                <lb break="no"/>dere.
+                            </p>
+                            <p corresp="#articolo67_13">
+                                <lb/>I nostri <orgName type="media" ref="#opere">giornali politici</orgName> occupati sempre nelle misera
+                                <lb break="no"/>bili gare dei piccoli gruppi non volgono la loro attenzione 
+                                <lb/>a questi fatti, di cui non sembrano comprendere l’impor
+                                <lb break="no"/>tanza. Ma noi crediamo che sia dovere di buoni <persName type="group" ref="#persone_reali">cittadini</persName> 
+                                <lb/>il richiamare l’attenzione di tutti coloro che amano il bene del 
+                                <lb/><placeName key="paese" ref="#luoghi">proprio paese</placeName> sugli sforzi generosi che si vanno facendo nella 
+                                <lb/><placeName key="Mantova" ref="#luoghi">provincia di Mantova</placeName>, pregandoli di dare il loro appoggio 
+                                <lb/>morale a coloro che lavorano con tanto ardore e tanto di
+                                <lb break="no"/>sinteresse per il pubblico bene.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--BIBLIOGRAFIA E NOTIZIE-->
+                <div type="bibliografia_notizie67">
+                    <!-- Bibliografia -->
+                    
+                        <div type="testo">
+
+                            <!--immagine 1-->
+                            <div facs="immagini/bibliografia67_1.jpg">
+                                <pb/>
+                                <p corresp="#bibliografia67_0">
+                                    <lb/><title>BIBLIOGRAFIA.</title>
+                                    <lb/><title>LETTERATURA E STORIA.</title>
+
+                                    <lb/><biblStruct>
+                                        <analytic>
+                                            <author>
+                                            <persName ref="#persone_reali">
+                                                <forename>Giuseppe</forename>
+                                                <surname>Regaldi, </surname>
+                                            </persName>
+                                            </author>
+                                            <title ref="#opere">Storia e Letteratura, </title>
+                                            <title type="subtitle">prose con Prefazione di <persName>Giosuè Carducci. </persName></title>
+                                        </analytic>
+                                        <monogr>
+                                            <imprint>
+                                            <pubPlace ref="#luoghi">Livorno, </pubPlace>
+                                            <publisher ref="#casa_editrice">Vigo, </publisher>
+                                            <date ref="#date">1879. </date>
+                                            </imprint>
+                                        </monogr>
+                                    </biblStruct>
+                                    <lb/>
+                                    <lb/>Questo <term type="work" ref="#opere">volume</term>, intitolato <title ref="#opere">« Storia e Letteratura »</title> po
+                                    <lb break="no"/>trebbe meglio denominarsi <title ref="#opere">« Prose accademiche e Saggi sto
+                                    <lb break="no"/>rici e letterari. »</title> Alla prima categoria appartengono le <term type="work" ref="#opere">Pro
+                                    <lb break="no"/>lusioni</term> recitate nelle <placeName key="università_parma" type="intituctional" ref="#luoghi">Università di Parma</placeName>, di <placeName key="Cagliari" ref="#luoghi">Cagliari</placeName> e di 
+                                    <lb/><placeName key="Bologna" ref="#luoghi">Bologna</placeName>, che hanno tutte le qualità proprie dello stile ac
+                                    <lb break="no"/>cademico, al quale confessiamo di sentirci assai poco inclinati. 
+                                    <lb/>Argomenti come le relazioni fra la <term type="theme" ref="#temi_motivi">Storia</term> e la <term type="theme" ref="#temi_motivi">Poesia</term> (<choice><abbr>pag.</abbr><expan>pagina</expan></choice> 1)
+                                </p>
+                            </div>
+
+                            <!--immagine 2-->
+                            <div facs="immagini/bibliografia67_2.jpg">
+                                <pb/>
+                                <p corresp="#bibliografia67_1">
+                                    <lb/> e fra l' <term type="theme" ref="#temi_motivi">Arte</term> e la <term type="theme" ref="#temi_motivi">Patria</term> (<choice><abbr>pag.</abbr><expan>pagina</expan></choice> 15) sono ormai vecchi e logori, 
+                                    <lb/>e nemmeno la virtù, <term type="theme" ref="#temi_motivi">poetica</term> del <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> ha valore tale da 
+                                    <lb/>ringiovanirli. Nè men vieti soggetti sono <note type="theme" corresp="#temi_motivi">L'Oriente antico</note>
+                                    <lb/>(<choice><abbr>pag.</abbr><expan>pagina</expan></choice> 161), <note type="theme" corresp="#temi_motivi">Il Medio Evo</note> (<choice><abbr>pag.</abbr><expan>pagina</expan></choice> 38), <note type="theme" corresp="#temi_motivi">Roma pagana e Roma 
+                                    <lb/>cristiana</note> (<choice><abbr>p.</abbr><expan>pagina</expan></choice> 181), ecc. Deploriamo che aprendo i suoi corsi 
+                                    <lb/>universitari, il <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> credesse opportuno di dover cedere 
+                                    <lb/>alla tentazione di siffatte <term type="work" ref="#opere">esercitazioni retoriche</term>: intendiamo 
+                                    <lb/>anche che, per seguire l’ uso, le stampasse dopo che furono 
+                                    <lb/>salutate dai soliti cortesi applausi del colto pubblico ; ma 
+                                    <lb/>non intendiamo qual consiglio fosse il suo di raccoglierle 
+                                    <lb/>adesso in un <term type="work" ref="#opere">volume</term>, quasi frutti migliori del suo ingegno 
+                                    <lb/>e prove della sua attitudine didattica. Quando non abbiano 
+                                    <lb/>un soggetto determinato e speciale di <term type="theme" ref="#temi_motivi">storia</term> o di <term type="theme" ref="#temi_motivi">lettera</term>
+                                    <lb/>tura o di <term type="theme" ref="#temi_motivi">critica</term>, le <title ref="#opere">Prolusioni</title> sono, a parer nostro, fasto
+                                    <lb/>se inutilità; e ognun comprende che per l’ampiezza stessa 
+                                    <lb/>della materia, queste del <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> altro non possano essere 
+                                    <lb/>salvo divagazioni, brillanti se vuoisi in alcune parti, ma 
+                                    <lb/>prive di ogni importanza scientifica, e come genere lette
+                                    <lb/>rario, declamazioni armoniose, se così sembra, ma nulla più. 
+                                    <lb/>Il genere stesso è falso, e <choice><sic>niuno</sic><reg>nessuno</reg></choice> potrebbe sanarne l’intima 
+                                    <lb/>vacuità. Nessuno, se non fosse trasportato dall’onda del dire 
+                                    <lb/>accademico, scriverebbe sul serio ciò che subito troviamo a 
+                                    <lb/><choice><abbr>pag.</abbr><expan>pagina</expan></choice> 3, che cioè <quote>« <persName key="Mosè" ref="#personaggi">Mosè</persName>, che intuonò sulle <placeName key="Eritrea" ref="#luoghi">rive dell’Eritreo</placeName> 
+                                    <lb/>il più sublime <term type="work" ref="#opere">cantico della redenzione</term>, è lo stesso che dettò
+                                    <lb/>i <term type="work" ref="#opere">libri storici</term> più autorevoli e sacri, <choice><sic>ove</sic><reg>dove</reg></choice> ci narra la <term type="theme" ref="#temi_motivi">genesi
+                                    <lb/>dell'universo</term> e le <term type="theme" ref="#temi_motivi">origini</term> e le <term type="theme" ref="#temi_motivi">vicende del popolo eletto</term> »</quote> : 
+                                    <lb/>anzi mettiamo pegno che il <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> stesso, in una <term type="work" ref="#opere">prosa</term> 
+                                    <lb/>governata non dall’ impeto della falsa <term type="work" ref="#opere">oratoria</term> ma ispirata 
+                                    <lb/>alla <term type="theme" ref="#temi_motivi">severità della scienza</term>, ci avrebbe pensato su due volte 
+                                    <lb/>prima di scrivere codeste <term type="work" ref="#opere">parole</term>. Così anche in altra <term type="work" ref="#opere">prosa 
+                                    <lb/>accademica</term>, che è l’ <term type="work" ref="#opere">elogio</term> del <term type="occupation">bibliotecario</term> <persName key="Martini" ref="#persone_reali">Martini</persName> caglia
+                                    <lb break="no"/>ritano, il <persName key="Regaldi" ref="#persone_reali">Regaldi</persName>, riscaldato nelle <term type="work" ref="#opere">lodi</term> del defunto amico, 
+                                    <lb/>assevera che a lui, dapprima dubitoso, non rimase alcun 
+                                    <lb/>dubbio sulla autenticità delle <term type="work" ref="#opere">Carte di Arborèa</term> quando 
+                                    <lb/>l’ebbe vedute e toccate con mano (<choice><abbr>pag.</abbr><expan>pagina</expan></choice> 152); ma crediamo 
+                                    <lb/>per certo che se il <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> stesso avesse dovuto parlar di 
+                                    <lb/>ciò in altra occasione, avrebbe riconosciuta la propria in
+                                    <lb/>competenza in siffatto argomento, specialmente rimpetto 
+                                    <lb/>alla competenza del <persName key="Momsen" ref="#persone_reali">Momsen</persName>, del <persName key="Meyer" ref="#persone_reali">Meyer</persName> e del <persName key="Jaffè" ref="#persone_reali">Jaffè</persName>, e di 
+                                    <lb/>altri valentuomini esperti in materia, e per lo meglio si sa
+                                    <lb break="no"/>rebbe taciuto. E anche, e naturalmente, lo stile che negli 
+                                    <lb/>altri <term type="work" ref="#opere">scritti</term> del <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> è sempre fiorito e fa ricordare il 
+                                    <lb/><term type="occupation">poeta</term>, ma con giusta temperanza, in queste <term type="work" ref="#opere">prose accade
+                                    <lb break="no"/>miche</term> è, secondo la vecchia tradizione del genere e della 
+                                    <lb/>scuola, pomposamente vuoto; e le forme poetiche tanto vi 
+                                    <lb/>si immettono, da farlo diventare addirittura apocalittico, 
+                                    <lb/>come in quella visione del <quote>« bardo »</quote> che trovasi sul prin
+                                    <lb break="no"/>cipio della <term type="work" ref="#opere">Prolusione</term> sull’ <term type="theme" ref="#temi_motivi">Oriente antico</term> (<choice><abbr>pag.</abbr><expan>pagina</expan></choice> 161).
+                                </p>
+
+                                <p corresp="#bibliografia67_2">
+                                    <lb/>Così andiamo penosamente innanzi nella lettura del <term type="work" ref="#opere">vo
+                                    <lb break="no"/>lume</term> fino alla <choice><abbr>pag.</abbr><expan>pagina</expan></choice> 305, salvo due oasi, per così dire, bene
+                                    <lb break="no"/>fiche e grate a <choice><abbr>pag.</abbr><expan>pagina</expan></choice> 74 e 267. Ma se non amiamo nè pos
+                                    <lb break="no"/>siamo lodare il <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> accademico, lodiamo il <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> 
+                                    <lb/>« pellegrino dell’<placeName key="Asia" ref="#luoghi">Asia</placeName> e dell’<placeName key="Asia" ref="#luoghi">Àfrica</placeName> (<choice><abbr>pag.</abbr><expan>pagina</expan></choice> 16) », che più tardi 
+                                    <lb/>ci viene innanzi, e con vivi colori, con stile caldo ma non 
+                                    <lb/>gonfio, ci descrive le regioni <choice><sic>ove</sic><reg>dove</reg></choice> pose il piede, gli uomini 
+                                    <lb/>coi quali conversò, mischiando insieme i ricordi dei <term type="work" ref="#opere">libri</term> e 
+                                    <lb/>degli studi, e le impressioni dell’ occhio e dell’ animo. Questo 
+                                    <lb/>è il vero <persName key="Regaldi" ref="#persone_reali">Regaldi</persName>, il <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> non sciupato nè ammanierato, 
+                                    <lb/>nel quale ci compiacciamo ; e ben vorremmo che tutto il 
+                                    <lb/><term type="work" ref="#opere">volume</term> racchiudesse <term type="work" ref="#opere">scritti</term> come il <title ref="#opere">Libano</title>, <title ref="#opere">Smirne</title>, <title ref="#opere">Parga</title>, 
+                                    <lb/><title ref="#opere">Exoria</title>, <title ref="#opere">l'Università di Corfu</title>, <title ref="#opere">il Poeta Dionigi Solomos</title>, <title ref="#opere">il Conte 
+                                    <lb/>Giovanni Capodistria</title>, <title ref="#opere">Teofilo Cairi</title>. Qui ’ <term>autore</term> discorre di 
+                                    <lb/>cose eh’ ei sa bene e che il lettore o non sa affatto o sa 
+                                    <lb/>incompiutamente, e lo stile è proprio dell’uomo che ha qual
+                                    <lb break="no"/>che cosa di nuovo e di vero da dire, nè deve battersi i fianchi 
+                                    <lb/>ed ingrossar la voce per fermare l’ attenzione del suo pub
+                                    <lb break="no"/>blico. Belle e vive descrizioni sono quelle della <placeName key="Palestina" ref="#luoghi">Palestina</placeName> e
+                                </p>
+
+                                <cb/>
+                                <p corresp="#bibliografia67_3">
+                                    <lb/>della <placeName key="Siria" ref="#luoghi">Siria</placeName>; utili le notizie ch’ei ci porge sulle <note type="theme" corresp="#temi_motivi">condizioni 
+                                    <lb/>dei popoli</note>, sull’ <note type="theme" corresp="#temi_motivi">opera delle Missioni</note>, sugli <note type="theme" corresp="#temi_motivi">avvolgimenti 
+                                    <lb/>della politica europea nell’ Oriente</note> ; saggi i consigli ch’ei 
+                                    <lb/>porge agli Italiani che colaggiù hanno tante memorie e tanti 
+                                    <lb/>interessi. Le <term type="work" ref="#opere">pagine</term> sul <term type="theme" ref="#temi_motivi">Solomos</term> sono un importante <term type="work" ref="#opere">brano</term> 
+                                    <lb/>della <note type="theme" corresp="#temi_motivi">storia letteraria neo-ellenica</note>: le <term type="work" ref="#opere">memorie</term> sul <term type="theme" ref="#temi_motivi">Capo
+                                    <lb break="no"/>distria</term> un rilevante <term type="work" ref="#opere">capitolo</term> della <note type="theme" corresp="#temi_motivi">storia della greca rivo
+                                    <lb break="no"/>luzione</note>: e la <term type="work" ref="#opere">biografia</term> del <term type="theme" ref="#temi_motivi">Cairi</term>, del <term type="theme" ref="#temi_motivi">nuovo Socrate</term> che 
+                                    <lb/><quote corresp="#citazioni">« dopo preparata, promossa, aiutata la liberazione della 
+                                    <lb/>patria, rinunziò all’ evangelio per la filosofia, a Cristo per 
+                                    <lb/>Platone (<choice><abbr>pag.</abbr><expan>pagina</expan></choice> xvi) »</quote> è insieme un attraente <term type="work">lavoro di storia 
+                                    <lb/>contemporanea</term>, un delicato studio psicologico, e una buona 
+                                    <lb/>azione. 
+                                </p>
+
+                                <p corresp="#bibliografia67_4">
+                                    <lb/>Il <persName key="Regaldi" ref="#persone_reali">Regaldi</persName> deve avere nel suo scrigno altri ricordi dei 
+                                    <lb/>suoi viaggi, simili a questi; e se l’età e gli uffici pubblici 
+                                    <lb/>non gli consentono ormai di stendere per intero le sue <title ref="#opere">Me
+                                    <lb break="no"/>morie</title>, ce ne dia altri frammenti come i presenti, e noi ne 
+                                    <lb/>saremo lieti e gli faremo <choice><sic>paluso</sic><reg>applauso</reg></choice>. Questo stesso è il voto che 
+                                    <lb/>forma anche il <persName key="Carducci" ref="persone_reali">Carducci</persName> nella <term type="work" ref="#opere">prefazione</term> che ha scritto al 
+                                    <lb/>presente <term type="work" ref="#opere">volume</term> del suo collega: il <persName key="Carducci" ref="persone_reali">Carducci</persName>, che infin dei 
+                                    <lb/>conti, e con quel garbo che a lui in questa occasione si con
+                                    <lb/>veniva, non discorda dal giudizio che abbiamo recato sulle 
+                                    <lb/>due diverse maniere di scritture che nel <term type="work" ref="#opere">volume</term> stesso si 
+                                    <lb/>contengono.
+                                </p>
+
+                                <p corresp="#bibliografia67_5">
+                                    <lb/><biblStruct>
+                                        <analytic>
+                                            <author>
+                                            <persName ref="#persone_reali">
+                                                <forename>J.</forename>
+                                                <surname>Ebhvrdt. </surname>
+                                            </persName>
+                                            </author>
+                                            <title ref="#opere" >Menschen und Dingen im heutigen Italien. </title>
+                                            <title type="sub">Aus dem heutigen Born. </title>
+                                            <title type="alt">(Uomini e cose dell’Italia moderna — Roma contemporanea), </title>
+                                        </analytic>
+                                        <monogr>
+                                            <imprint>
+                                            <pubPlace ref="#luoghi">Lipsia, </pubPlace>
+                                            <date ref="#date">1878.</date>
+                                            </imprint>
+                                        </monogr>
+                                    </biblStruct>
+
+                                    <lb/>Le materie che sono trattate in questo <term type="work" ref="#opere">libro</term> hanno spesse
+                                    <lb/>volte pochissima attinenza tra loro. Dalla <note type="theme" corresp="#temi_motivi">Camera dei De
+                                    <lb break="no"/>putati</note> si passa a un <note type="theme" corresp="#temi_motivi">processo per assassinio</note>, e da questo ad 
+                                    <lb/>una <note type="theme" corresp="#temi_motivi">descrizione del giorno dei morti al Campo Verano</note>, e da 
+                                    <lb/>Campo Verano si spicca il volo per<note type="theme" corresp="#temi_motivi"> Rócca di Papa e dei 
+                                    <lb/>Colli Albani</note>. I ventisette <term type="work" ref="#opere">capitoli</term> di cui si compone il <term type="work" ref="#opere">vo
+                                    <lb break="no"/>lume</term> potrebbero agevolmente stare ciascheduno da sè; 
+                                    <lb/>anzi benché l’À. non lo dica espressamente, si vede che fu
+                                    <lb break="no"/>rono in origine <term type="work" ref="#opere">articoli di giornali</term> o di <term type="work" ref="#opere">riviste</term>, ispirati 
+                                    <lb/>dagli <note type="theme" corresp="#temi_motivi">avvenimenti del giorno</note> e scritti senza il precon
+                                    <lb break="no"/>cetto disegno di riunirli poi a formare un <term type="work" ref="#opere">libro</term>. — Se non 
+                                    <lb/>fosse stato per questa ragione il signor <persName key="Ebhardt" ref="#persone_reali">Ebhardt</persName> non avrebbe 
+                                    <lb/>forse dedicato a <persName key="Crispi" ref="#persone_reali">Francesco Crispi</persName> quaranta <term type="work" ref="#opere">pagine</term> di un 
+                                    <lb/><term type="work" ref="#opere">volume</term> dove <persName key="Sella" ref="#persone_reali">Quintino Sella</persName> è appena menzionato per in
+                                    <lb/>cidenza, nè si sarebbe contentato di nominare <persName key="Ferrari" ref="#persone_reali">Giuseppe 
+                                    <lb/>Ferrari</persName> tra i cultori della fisolofia in <placeName key="Italia" ref="#luoghi">Italia</placeName>. Ma il <term type="occupation">giorna
+                                    <lb break="no"/>lista</term> è <term type="occupation">scrittore d’ occasione</term>; e l’ argomento non può sce
+                                    <lb break="no"/>glierlo lui; glielo porgono i fatti del giorno, o per par
+                                    <lb break="no"/>lare più esatto glielo impongono. E poiché i fatti si suc
+                                    <lb break="no"/>cedono con rapida vicenda e nella successione loro gli uo
+                                    <lb break="no"/>mini si rivelano sotto una diversa luce, chi è costretto a 
+                                    <lb/>giudicarli giorno per giorno non è meraviglia che debba 
+                                    <lb/>qualche volta mutare il suo giudizio. Così il primo <term type="work" ref="#opere">articolo</term>
+                                    <lb/>intorno al <persName key="Crispi" ref="#persone_reali">Crispi</persName> scritto nell’autunno del <date ref="#date">1877</date> suona diverso 
+                                    <lb/>dal secondo <term type="work" ref="#opere">scritto</term> nella state <date ref="#date">1878</date>. E abbiamo detto a 
+                                    <lb/>bella porta suona, perchè la diversità non istà tanto nelle 
+                                    <lb/>parole e nelle opinioni, quanto nella intonazione generale 
+                                    <lb/>che caratterizza i due <term type="work" ref="#opere">articoli</term> ; e quando pure si voglia 
+                                    <lb/>consentire all’A. che il motivo musicale sia identico — egli 
+                                    <lb/>si sforza di dimostrarlo, e questo prova che l’identità non 
+                                    <lb/>è di per sè stessa evidente — non v’ha dubbio che il tuono 
+                                    <lb/>della musica è assai diverso. Il primo <term type="work" ref="#opere">articolo</term>, <persName key="Crispi" ref="#persone_reali">Crispi</persName> <term type="occupation">pre
+                                    <lb break="no"/>sidente della Camera</term>, festeggiato a <placeName key="Berlino" ref="#luoghi">Berlino</placeName>, preconizzato 
+                                    <lb/><term type="occupation">ministro</term>, è una marcia trionfale; il secondo, <persName key="Crispi" ref="#persone_reali">Crispi</persName> accusato 
+                                    <lb/>di bigamia e obbligato a lasciare il Ministero, è una marcia 
+                                    <lb/>funebre.
+                                </p>
+
+                                <p corresp="#bibliografia67_6">
+                                    <lb/>Da questa dissonanza in fuori e da qualche altra più 
+                                    <lb/>minuta e di minor conto, non abbiamo nessuna difficoltà di 
+                                    <lb/>ammettere che il signor <persName key="Ebhardt" ref="#persone_reali">Ebhardt</persName> ci ha dato nelle sue 318
+                                </p>
+                            </div>
+
+                            <!--immagine 3-->
+                            <div facs="immagini/bibliografianotizie67.jpg">
+                                <pb/>
+                                <p corresp="#bibliografia67_7">
+                                    <lb/><term type="work" ref="#opere">pagine</term> una serie di quadri, armonici tra loro e molto fe
+                                    <lb break="no"/>deli, delle <note type="theme" corresp="#temi_motivi">condizioni sociali, religiose e politiche</note> di <placeName key="Roma" ref="#luoghi">Roma</placeName> 
+                                    <lb/>contemperanea, e fuori d’<placeName key="Italia" ref="#luoghi">Italia</placeName> specialmente il suo <term type="work" ref="#opere">volume</term> 
+                                    <lb/>deve avere destato molto interesse.
+                                </p>
+
+                                <p corresp="#bibliografia67_8">
+                                    <lb/>Una città dove poterono convivere insieme per otto anni 
+                                    <lb/>senza violenze il re più democratico e il papa più fanatico 
+                                    <lb/>di questo e di parecchi altri secoli, in mezzo a una citta
+                                    <lb break="no"/>dinanza passata improvvisamente dalla più stretta teocrazia 
+                                    <lb/>alla più larga libertà, educata o al bigottismo o alle sette, 
+                                    <lb/>con poca coltura letteraria e nessuna politica, composta 
+                                    <lb/>quasi per intero di <term type="occupation">preti</term>, di <term type="occupation">nobili retrivi</term> e di <term type="occupation">popolani 
+                                    <lb/>illetterati</term>; una città dove senza sangue e quasi senz’armi 
+                                    <lb/>si scomunica da una parte, e dall’altra si festeggia l’ unità 
+                                    <lb/>italiana; una città dove vivono e funzionano tranquillamente 
+                                    <lb/>uno accanto all’altro la libera stampa ed il sant’uffizio, me
+                                    <lb break="no"/>rita davvero di essere studiata con amore e descritta non 
+                                    <lb/>soltanto ne’suoi contorni generali, ma anche nei minuti 
+                                    <lb/>accessori come fa il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Ebhardt" ref="#persone_reali">Ebhardt</persName>. Se parecchi di questi 
+                                    <lb/>accessori non sono belli, la colpa non è dello <term type="occupation">scrittore</term>. In 
+                                    <lb/><placeName key="Roma" ref="#luoghi">Roma</placeName>, anzi in <placeName key="Italia" ref="#luoghi">Italia</placeName>, anche dopo il molto che si è fatto, c’ è 
+                                    <lb/>tuttavia molto da fare, e nessuno lo sa e lo sente più di 
+                                    <lb/>noi. Ma avremmo desiderato che l’A. nel farcelo capire mo
+                                    <lb break="no"/>strasse un poco meno la persuasione — comune del resto 
+                                    <lb/>a quasi tutti i di lui connazionali — che il popolo a cui 
+                                    <lb/>egli appartiene è per natura sua superiore ad ogni altro.
+                                    <lb/> <quote corresp="#citazioni">» E fu fatto da Dio, sua mercè tale 
+                                    <lb/>Che la nostra miseria non lo tange. »</quote>
+                                </p>
+
+                                <p corresp="#bibliografia67_9">
+                                    <lb/>Glielo diciamo senz’ odio e senza rancore. E per mo
+                                    <lb break="no"/>strargli l’imparzialità nostra soggiungeremo anche che ci 
+                                    <lb break="no"/>pare un poco esagerata l’ammirazione sua per il contegno 
+                                    <lb/>che serba il nostro popolo nelle dimostrazioni patriottiche. 
+                                    <lb/>La tranquillità e la moderazione che esso serba nelle sue 
+                                    <lb/>feste nazionali meritano certo ogni encomio, ma i sentimenti 
+                                    <lb/>che le determinano sono forse meno alti di quello che l’A. 
+                                    <lb/>suppone.
+                                    <lb/>Ancora due osservazioni e abbiamo finito.
+                                </p>
+
+                                <p corresp="#bibliografia67_10">
+                                    <lb/>Non è vero che nella chiesa cattolica il <orgName ref="#organizzazioni">diaconato</orgName> sia 
+                                    <lb/>un ordine minore come l’A. mostra di credere a <choice><abbr>pag</abbr><expan>pagina</expan></choice> 152 
+                                    <lb/>del suo <term type="work" ref="#opere">libro</term> ; e per ciò che spetta al celibato ed al buon 
+                                    <lb/>costume, il <term type="occupation">diacono</term> ha gli stessi obblighi del <term type="occupation">prete</term>. E poi 
+                                    <lb/>anche meno vero che <persName key="Balbo" ref="#persone_reali">Cesare Balbo</persName> abbia predicato nelle 
+                                    <lb/><title ref="#opere">Speranze d’Italia</title> la <note type="theme" corresp="#temi_motivi">libertà mediante l’unità</note>, come dice il 
+                                    <lb/><choice><abbr>sig.</abbr><expan>signore</expan></choice> Ebhardt a <choice><abbr>pag</abbr><expan>pagina</expan></choice> 256. Una gran parte delle <term type="title" ref="#opere">Speranze</term> è 
+                                    <lb/>destinata invece a dimostrare che l’<placeName key="Italia" ref="#luoghi">Italia</placeName> non può avere 
+                                    <lb/>nell’unità alcuna speranza, e a raccomandare una confedera
+                                    <lb break="no"/>zione dei principi e dei popoli italiani per ottenere per 
+                                    <lb/>questa via l’<note type="theme" corresp="#temi_motivi">indipendenza dallo straniero</note>.  
+                                </p>
+
+                                <p corresp="#bibliografia67_11">
+                                    <title ref="#opere">LIBRI ELEMENTARI.</title>
+                                    <lb/><biblStruct>
+                                        <analytic>
+                                            <author>
+                                            <persName ref="#persone_reali">
+                                                <forename>Elena</forename>
+                                                <surname>Ballio. </surname>
+                                            </persName>
+                                            </author>
+                                            <title level="a" ref="#opere">Avviamento allo stadio della geografia. </title>
+                                        </analytic>
+                                        <monogr>
+                                            <imprint>
+                                            <pubPlace ref="#luoghi">Roma, </pubPlace>
+                                            <date ref="#date">1879, </date>
+                                            <publisher ref="#casa_editrice">S. P. Paravia.</publisher>
+                                            </imprint>
+                                        </monogr>
+                                    </biblStruct>
+                                    <lb/>
+                                    <lb/>Il metodo, preconizzato qualche anno fa, come il più 
+                                    <lb/>adatto a condurre, le menti infantili alla <note type="theme" corresp="#temi_motivi">intelligenza delle 
+                                    <lb/>forme e de’ concetti geografici</note>, ha trovato nella signora 
+                                    <lb/><persName key="Ballio" ref="#persone_reali">Elena Ballio</persName> una accurata e intelligente interpetre, la quale 
+                                    <lb/>nell’ <quote corresp="#citazioni">« Avviamento »</quote> sopra indicato porge a’<term type="occupation">maestri elemen
+                                    <lb break="no"/>tari</term> una buona guida ed ai fanciulli un buon sunto di <note type="theme" corresp="temi_motivi">no
+                                    <lb break="no"/>zioni elementari geografiche</note> cavate dall’ aspetto de’luoghi 
+                                    <lb/>da essi giornalmente frequentati. Prendere quasi per mano 
+                                    <lb/>il fanciullo romano, invitarlo a volgere gli occhi in giro 
+                                    <lb/>nella casa, per le vie di <placeName key="Roma" ref="#luoghi">Roma</placeName>, pei campi e per le colline, 
+                                    <lb/>e mostrargli come queste forme a cui essa fa poco atten
+                                    <lb break="no"/>zione rispetto alla loro posizione hanno un particolar modo 
+                                    <lb/>di rappresentanza sulla <term>carta topografica</term>; richiamare la 
+                                    <lb/>sua mente a osservare non pure le cose naturali ma la loro 
+                                    <lb/>giacitura e i loro rapporti ; invitarlo a guardare il cammino
+                                </p>
+
+                                <cb/>
+                                <p corresp="#bibliografia67_12">
+                                    <lb/>del sole, il corso de’fiumi, la direzione delle vie, l’altezza delle 
+                                    <lb/>montagne, e così insinuargli il gusto delle nozioni geografi
+                                    <lb break="no"/>che ed agevolargli il modo di comprenderle ; tale è lo scopo 
+                                    <lb/>che la Signora <persName key="Ballio" ref="#persone_reali"> Ballio</persName> si prefigge in questo <term type="work" ref="#opere">libretto</term>, scopo da 
+                                    <lb/>essa assai felicemente raggiunto. Se v'è cosa che meriti una 
+                                    <lb/>diligenza grandissima per parte degl’istitutori de’ fanciulli, 
+                                    <lb/>è certamente la cura di far germogliare nelle menti loro 
+                                    <lb/>idee giuste e chiare, per cui sarà in seguito ad essi rispar
+                                    <lb break="no"/>miato molto del lavoro altrimenti perduto nel raddrizzare 
+                                    <lb/>gli storti concetti o nel rischiarare le idee mal comprese. 
+                                    <lb/>Intorno a questa cura non saranno mai troppe le fatiche 
+                                    <lb/>spese dagl’<term type="occupation">insegnanti</term>, e di essa ha particolarmente bisogno 
+                                    <lb/>l’intelligenza de’rapporti tra le cose esterne e la loro rap
+                                    <lb break="no"/>presentanza grafica. Per questo lato nel <term type="work" ref="#opere">libretto</term> che ab
+                                    <lb break="no"/>biamo sott’occhio ci sembra bene inteso il metodo del pari 
+                                    <lb/>che l’applicazione di esso. Soltanto ci sembrebbe desidera
+                                    <lb break="no"/>bile che la signora <persName key="Ballio" ref="#persone_reali"> Ballio</persName> fosse meno timida nell’estendere 
+                                    <lb/>le nozioni astratte cavate anche da un fatto solo, e più 
+                                    <lb/>prodiga di ravvicinamenti e combinazioni di concetti. 
+                                    <lb/>Sembra poco fiduciosa della facoltà di astrazione de’fan 
+                                    <lb break="no"/>ciulli. E invece riteniamo che questa facoltà sia fecondis
+                                    <lb break="no"/>sima fino da quell’età ; e che anzi, mentre si interdice a 
+                                    <lb/>uno <term type="occupation">scienziato</term> di cavare l’astrazione da un fatto solo, ai 
+                                    <lb/>fanciulli è buona regola insinuare nella mente molte astra
+                                    <lb break="no"/>zioni e molti concetti giusti, prendendone occasione pur da 
+                                    <lb/>un fatto solo. Il <placeName key="Tevere" ref="#luoghi_naturali">Tevere</placeName> e la sua isola, le vie e i colli la
+                                    <lb/>ziali sono capaci di porgere al fanciullo nozioni più vaste, e 
+                                    <lb/>la loro rappresentanza grafica può avviarlo alla intelligenza 
+                                    <lb/>di carte più complicate. In questa guisa dovrebbesi cavare 
+                                    <lb/>da un piccolo e ristretto corredo di forme terrestri la <note type="theme" corresp="#temi_motivi">con
+                                    <lb break="no"/>cezione e la rappresentanza di un intero ordine di concetti 
+                                    <lb/>geografici</note>.
+                                </p>
+                        
+                                <!--Notizie-->
+                            
+                                <p corresp="#notizie67_0">
+                                    
+                                        <lb/><title>NOTIZIE. </title>
+                                        <lb/>
+                                        <lb/>— È uscita (<placeName key="Siena" ref="#luoghi">Siena</placeName>, <orgName type="publisher">Bargellini</orgName>) la prima dispensa di una nuova 
+                                        <lb/><term type="work" ref="#opere">opera storica</term> del <abbr>cav.</abbr> <persName key="Banchi" ref="#persone_reali">Luciano Banchi</persName>, <term type="occupation">archivista senese</term>, dedicata al 
+                                        <lb/><abbr>connu.</abbr> <persName key="Luzzatti" ref="#persone_reali">Luigi Luzzatti</persName>, e intitolata : <title ref="#opere">Gli ordinamenti economici dei Comuni 
+                                        <lb/>toscani nel medioevo e segnatamente del Comune di Siena</title>. Contiene i quat
+                                        <lb break="no"/>tro primi <term type="work" ref="#opere">capitoli</term>, che danno notizie preliminari sulla <term type="economic">Lira</term> o <term type="economic">Estimo</term>, e 
+                                        <lb/>parecchi interessanti ragguagli sulle denuuzie dei beni. Ne riparleremo.
+                                    
+                                        <lb/>— Nell’adunanza del 9 <date ref="#date">febbraio 1879</date>, della <orgName type="government">R. deputazione di Sto
+                                        <lb break="no"/>ria Patria di Bologna</orgName>, il <rs type="epithet">conte</rs> <persName key="Manzoni" ref="#persone_reali">Luigi Manzoni</persName> ha letto una <term type="work" ref="#opere">memoria</term> 
+                                        <lb/>sul noto <term type="work" ref="#opere">poema</term> <title ref="#opere">La Sfera</title>, di <persName key="Coro" ref="#persone_reali">Coro</persName> o di <persName key="Dati" ref="#persone_reali">Leonardo Dati</persName>, descrivendone 
+                                        <lb/>il contenuto e rilevandone l’importanza riguardo alla <term type="theme" ref="#temi_motivi">scienza geografica</term>. 
+                                        <lb/>E rispetto alla questione dell’autore, il <persName key="Manzoni" ref="#persone_reali">Manzoni</persName> sulla fede dei codici, 
+                                        <lb/>e con altri argomenti attribuisce quest’ opera a <persName key="Dati" ref="#persone_reali">Leonardo Dati</persName> (<date ref="#date">1365- 
+                                        <lb/>1464</date>), domenicano, anziché a <persName key="Gregorio" ref="#persone_reali">Gregorio</persName> o <persName key="Gregorio" ref="#persone_reali">Goro</persName> suo fratello (<date ref="#date">1363-1435</date>), 
+                                        <lb/>autore di una <title ref="#opere">Storia fiorentina dal 1380 al 1408</title>; il cui nome fu scritto 
+                                        <lb/>nella prima edizione della Sfera, fatta in <placeName key="Firenze" ref="#luoghi"></placeName>Firenze nel <date ref="#date">1513</date>, e accettato 
+                                        <lb/>preferibilmente dalla comune opinione.
+                                    </p>
+                                
+                                <p corresp="#notizie67_1">
+                                    <lb/>— È morto improvvisamente a <persName key="Strodtmann" ref="#persone_reali">Steglitz Adolfo Strodtmann</persName> nell’età di 
+                                    <lb/>55 anni. Egli pubblicò un gran numero di <term type="work" ref="#opere">lavori</term> di molta importanza, 
+                                    <lb/>tra i quali tengono luogo cospicuo la <note type="theme" corresp="#temi_motivi">vita di Heine</note> e l’edizione accu
+                                    <lb/>ratissima delle opere di quel <term type="occupation">poeta</term>. Era valente nella lingua danese o 
+                                    <lb/>voltò in tedesco le opere principali degli scrittori della <placeName key="Danimarca" ref="#luoghi">Danimarca</placeName>.
+                                    <lb/>(<foreign corresp="#testo_lingua_straniera"><title ref="#opere">Athenœuni</title></foreign>)
+                                </p>
+                                <p corresp="#notizie67_2">
+                                    <lb/>— Il <note type="theme" corresp="#temi_motivi">sistema d’illuminazione Wedernian</note> fu sperimentato dal signor 
+                                    <lb/><persName key="Bacquerel" ref="#persone_reali">Becquerel</persName> nelle sue lezioni sulla <term type="theme" ref="#temi_motivi">elettricità</term>, date al <placeName key="conservatorio" ref="#luoghi">Conservatorio d’arti 
+                                    <lb/>e mestieri</placeName> di <placeName key="Parigi" ref="#luoghi">Parigi</placeName>. Quel sistema è stato introdotto in <placeName key="Francia" ref="#luoghi">Francia</placeName> dal 
+                                    <lb/><choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Herz" ref="#persone_reali">Herz</persName>. Sei lampade Werdermann furono disposte intorno alla cat
+                                    <lb/>tedra del professore e arsero con la massima regolarità. Il <choice><abbr>sig.</abbr><expan>signore</expan></choice> <persName key="Bacquerel" ref="#persone_reali">Bec
+                                    <lb/>querel</persName> si dimostrò molto favorevole a quel sistema d’illuminare.
+                                    <lb/>(<foreign corresp="#testo_lingua_straniera"><title ref="#opere">AAiOirc</title></foreign>)
+                                </p>
+                            </div>
+
+                        </div>
+                    
+                </div>
+            </div>
+
+        </body>
+    </text>
+
+
+</TEI>

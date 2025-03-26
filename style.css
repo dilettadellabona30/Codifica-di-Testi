@@ -1,0 +1,150 @@
+/* Stile di base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+  }
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header e navigazione */
+  header {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+  }
+  header .container {
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  nav ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Layout galleria a due colonne */
+  .gallery-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .left-column, .right-column {
+    flex: 1;
+    position: relative;
+  }
+  
+  /* Contenitore slide (debug e dimensioni) */
+  .slides {
+    position: relative;
+    min-height: 300px;  
+  }
+  
+  /* Slide immagini */
+  .slides .slide {
+    display: none;
+  }
+  .slides .slide.active {
+    display: block;
+  }
+  .left-column img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+  /* Navigazione frecce */
+  .navigation {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+  .navigation button {
+    background: #004080;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 5px;
+    margin-bottom: 10px;
+  }
+  .navigation button:hover {
+    background: #0066cc;
+  }
+
+  .navigation .active-button{
+    background-color:rgb(0, 204, 160);
+  }
+  
+  /* Slide testo */
+  .text-slides {
+    position: relative;
+    min-height: 300px;  
+    text-align: justify;
+    margin-left: 80px;
+  }
+
+  .text-slides .text-slide {
+    display: none;
+  }
+  
+  .text-slides .text-slide.active {
+    display: block;
+  }
+
+  .highlight {
+    background-color: yellow; 
+  }
+  
+  /* Glossario */
+  .glossario {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .glossario-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ddd;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  footer .footer-section {
+    flex: 1;
+    min-width: 200px;
+  }
+  footer h3 {
+    margin-top: 0;
+  }
+  
